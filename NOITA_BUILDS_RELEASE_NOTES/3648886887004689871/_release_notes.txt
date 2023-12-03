@@ -1,0 +1,7 @@
+ 
+--- RELEASE NOTES - Sep 30 2019 ---
+ 
+UPDATE: replay edit - higher quality downscaling
+UPDATE: replay edit - attempts to select an output resolution that results in less sampling artefacts
+UPDATE: Gameplay - reduced default screen shake to 70% of original
+UPDATE: Several new perks for extra variety!

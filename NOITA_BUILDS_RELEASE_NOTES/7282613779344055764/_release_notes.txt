@@ -1,0 +1,56 @@
+﻿*PERKS*
+FEATURE: Perk - Item Radar
+FEATURE: Perk - Extra Potion Capacity
+FEATURE: Perk - Spontaneous Generation
+FEATURE: Perk - Revenge Rats
+ 
+UPDATE: Stronger Hearts can now stack, but starts out giving only 50% extra hp from hearts
+UPDATE: Perks that do not stack should no longer appear ever again when rerolling
+UPDATE: Certain stackable perks (such as Low Gravity) appear less often when rerolling
+UPDATE: Perks that can only stack a specific number of times should no longer appear after that
+UPDATE: The Always Cast perk has a new spell pool to pick from
+ 
+*SPELLS*
+FEATURE: Spell - Remove Explosion
+FEATURE: Spell - Plasma Beam
+FEATURE: Spell - Expanding Sphere
+FEATURE: A selection of 6 absurd spells
+FEATURE: A selection of 8 whimsical spells
+ 
+*STREAMING INTEGRATION*
+FEATURE: Stream event - Always Cast
+ 
+*BIOMES, AREAS AND STRUCTURES*
+UPDATE: New props and structures in Snowy Wasteland and Desert
+ 
+*BALANCE*
+UPDATE: Stacking multiple Permanent Shield perks works better
+UPDATE: Essence to Power now counts player summon -like spells
+UPDATE: Hiisi Base lamps give weaker electric jolts
+UPDATE: Retired multicast spells from the always cast spell pool (for now) due to certain bugs
+UPDATE: Added new spells to the always cast lineup
+ 
+*POLISH*
+UPDATE: Underground Jungle's trees should no longer suddenly start blocking projectiles
+UPDATE: Added a particle effect for Projectile Repulsion Field
+UPDATE: The teleportation and blindness statuses now have an HUD element
+UPDATE: The perk reroll machine's cost is now centered! Isn't that beautiful?
+UPDATE: Slightly adjusted a secret
+UPDATE: Slightly adjusted another secret
+ 
+*BUG FIXES*
+BUGFIX: Fixed an odd interaction between increased explosive damage and certain projectiles
+BUGFIX: Fixed a rare error with the Wand Refresh spell
+BUGFIX: Prevented a certain cube from spawning in nightmare mode
+BUGFIX: A miniboss couldn't be targeted by homing
+BUGFIX: A miniboss didn't spawn its rewards correctly
+BUGFIX: Extra Wand Capacity counted Always Casts when deciding what the maximum wand capacity could be
+BUGFIX: Armed Creature streaming event would give wands to too many creatures
+ 
+*MODDING*
+MODDING: Perks now more clearly indicate whether they stack or not
+MODDING: Added stackable_is_rare for stackable perks that only seldom reappear
+MODDING: Added stackable_how_often_reappears for changing how quickly a perk can reappear when rerolling (default value 4)
+MODDING: perk_list.lua now has STACKABLE_YES and STACKABLE_NO to make the stackability more obvious
+MODDING: Steam Workshop uploader now supports .plz files
+MODDING/BUGFIX: Lua - GuiImage() rect animation layout calculation used size of whole sprite sheet instead of a single frame

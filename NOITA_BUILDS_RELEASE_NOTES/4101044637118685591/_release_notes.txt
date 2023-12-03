@@ -1,0 +1,16 @@
+ 
+RELEASE NOTES - Oct 1 2019
+ 
+UPDATE: Player starts with a water flask
+UPDATE: Small safety rooms at the start of Snowy Depths and Hiisi Base
+UPDATE: Giga Death Cross now properly Giga
+UPDATE: New eggs!
+UPDATE: Slight adjustments to Snowy Depths & Hiisi Base enemy distribution
+UPDATE: Two new alchemical curiosities!
+UPDATE: Two new spells
+
+FIX: Adjusted spell shop distribution slightly
+FIX: Clarified some spell descriptions
+FIX: Projectile knockbacks adjusted
+FIX: Some missing enemy progress icons added
+FIX: Potential crashes fixed in platform layer

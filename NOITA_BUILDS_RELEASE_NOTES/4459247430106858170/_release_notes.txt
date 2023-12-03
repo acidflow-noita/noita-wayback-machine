@@ -1,0 +1,43 @@
+ 
+HOTFIXES - Oct 24 2019
+ 
+FEATURE: Release notes box is scrollable, so there can be more release notes than fit on the screen!
+ 
+MODDING: Support for stainable sprites in mod file folder
+MODDING: Lua - added ModDevGenerateSpriteUVsForDirectory( directory_path )
+MODDING: Restored wang_gen.exe which reported as false positive in some version of Avira antivirus
+MODDING/BUGFIX: Random starting loadouts characters don't stain
+MODDING/BUGFIX: When activating a mod sometimes wrong mod activates 
+ 
+
+RELEASE NOTES - Oct 23 2019
+ 
+FEATURE: Added experimental mod support (Pause->Mods). To get started with making mods, see Noita/tools_modding folder
+FEATURE: Added 12 new spells, 2 new enemies and 3 new perks 
+FEATURE: Added a secret wormy thing 
+ 
+UPDATE: Touch of X -spells are now more consistent and have more maximum uses, circle of X -spells have more uses 
+UPDATE: Holy mountain guardian now takes few seconds to spawn
+UPDATE: Added a secret ending
+UPDATE: Worm crystals are more effective
+ 
+BUGFIX: 'Perk lottery' added invisible items into inventory
+BUGFIX: Boss could be polymorphed
+BUGFIX: Added some missing enemy/creature icons to the progress menu 
+BUGFIX: Alt tabbing when teleporting killed you
+BUGFIX: Teleport projectile could kill you if you teleported too far
+BUGFIX: Tiny physics bodies shouldn't do as much damage to the player
+BUGFIX: Sometimes angering the Gods spawned two guards
+BUGFIX: Crash - when generating potion name 
+BUGFIX: Gunpowder explosions now more accurately represent the actual explosion radius 
+ 
+MODDING: Custom audio bank support (see Noita/tools_modding/noita-fmod-project)
+MODDING: Reports mod init errors on game start
+MODDING: Lua - added DebugGetIsDevBuild(), GameGetRealWorldTimeSinceStarted()
+MODDING: Lua - added OnWorldInitialized(), OnWorldPreUpdate(), OnWorldPostUpdate(), OnPlayerSpawned() hooks (accessible via init.lua)
+MODDING: Lua - added PhysicsApplyTorqueToComponent( entity_id, component_id, float torque ), PhysicsApplyTorque( entity_id, float torque )
+MODDING: Lua - added EntityRemoveTag( entity_id, tag ), EntityGetClosest( pos_x, pos_y ), EntityGetWithName(entity_id) (note: slow!)
+MODDING: Lua - added GamePickUpInventoryItem( owner_entity_id, item_entity_id ), added GameKillInventoryItem( owner_entity_id, item_entity_id )
+MODDING: Lua - basic lua sandboxing and mod privilege system (breaking change)
+MODDING: Lua - removed GameDirector (breaking change)
+MODDING/BUGFIX: Lua - EntityHasTag() - adds the queried tag to entity

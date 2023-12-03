@@ -1,0 +1,903 @@
+﻿*GENERAL*
+FEATURE: New Steam Achievements!
+FEATURE: New Enemy: Pysäyttäjä
+FEATURE: New Enemy: Vakoilija
+FEATURE: New Enemy: Teloittaja
+FEATURE: New miniboss in a high-tech area
+FEATURE: New secret perk
+UPDATE: The powder pouch now spawns with some powder in it
+ 
+*SPELLS*
+UPDATE: Add Trigger, Add Timer & Add Death Trigger are now type 'other' instead of 'modifier'
+
+*PERKS*
+UPDATE: Extra Life marked as one-off
+UPDATE*: Eat Your Vegetables can't kill you fully and deals slightly less damage per tick
+ 
+*BUG FIXES*
+BUGFIX: Potions spawned by perks in Nightmare Mode were broken
+BUGFIX*: Suomuhauki was giving double progress entries
+BUGFIX*: Fixed a ghostly enemy needing air and getting stuck in walls
+BUGFIX*: Fixed an enemy not appearing in the progress menu
+BUGFIX*: Fixed Pollen not colliding with enemies properly
+ 
+ 
+RELEASE NOTES - Mar 26 2021
+ 
+*GENERAL*
+FEATURE: New secret spell
+FEATURE: New secret item
+FEATURE: New enemy: Kyrmyniska
+FEATURE: New enemy: Tarkkailija
+
+UPDATE: Brass is no longer walk-through
+UPDATE*: A lot of updates to the WIP area
+UPDATE*: Fungal shift - ends the trip
+ 
+*BUG FIXES*
+BUGFIX: Frog meat was improperly named
+BUGFIX: Steam version - Steam overlay wasn't enabled if game was started outside steam UI
+BUGFIX*: Fungal shift icon was offset weirdly
+BUGFIX*: Stacking lukki/leggy mutation affected the leg length of each other
+ 
+*MODDING*
+MODDING: Lua - added EntityRemoveIngestionStatusEffect()
+ 
+ 
+RELEASE NOTES - Mar 25 2021
+ 
+*GENERAL*
+FEATURE: New very WIP area
+ 
+UPDATE: Nightmare Mode now gives you the Tinker With Wands Everywhere perk by default
+UPDATE: Starting perks in Nightmare Mode no longer disappear after picking up just one
+ 
+*PERKS*
+UPDATE: Some new perks marked as one-off
+ 
+BUGFIX*: No More Shuffle was broken
+ 
+ 
+RELEASE NOTES - Mar 24 2021
+ 
+*GENERAL*
+FEATURE: A new very useful structure has appeared deep underground!
+ 
+UPDATE: There's a new type of gold nugget for the extremely greedy
+UPDATE: Small new pedestals to decorate certain areas a bit
+UPDATE: Slightly reduced speed variation of Heikko limanuljaska's projectiles
+UPDATE*: Localization for new text
+UPDATE*: Powders are now stored in a pouch instead of a box. The pouch doesn't break from throwing
+ 
+*PERKS*
+UPDATE*: Eat Your Vegetables damage buffed
+ 
+*BUG FIXES*
+BUGFIX*: Projectile status effects weren't always applied when they should
+
+ 
+RELEASE NOTES - Mar 18 2021
+ 
+*GENERAL*
+UPDATE: Hiidenkivi no longer takes damage from Freezing Liquid & Freezing Vapour
+UPDATE: Kiukkukalma & Spiraalikalma are now counted as ghosts, not mages
+UPDATE: The nests in Coal Pits are no longer flammable
+UPDATE: Frog meat is now tastier than ever!
+UPDATE: Added Minä to the progress menu
+UPDATE: Certain artifacts could be lost forever due to being killed while polymorphed
+
+*SPELLS*
+UPDATE*: Summoned rocks can no longer be picked up and thrown
+
+BUGFIX: Fixed summoned rocks and explosive boxes not benefiting from homing (again)
+ 
+*PERKS*
+FEATURE: New Perk: Lukki Minion
+ 
+UPDATE: Several particle-heavy perks no longer add extra particles when stacked
+UPDATE: Removed redundant entity spawns from some perks
+UPDATE*: Gas Blood now lowers your personal gravity a little bit
+UPDATE*: Gas Blood now gives you toxic immunity
+UPDATE*: Changed Enemy Radar to display radar blips over enemies on screen
+UPDATE*: Tweaked Eat Your Vegetables satiation/starving percents
+UPDATE*: Hungry Ghost now grants a damage multiplier instead of flat damage+ when eating a projectile
+UPDATE*: Eat Your Vegetables now has a more appropriate icon
+ 
+BUGFIX*: Lukki and Leggy Mutations make it difficult to float up in water
+ 
+*BUG FIXES*
+BUGFIX: Fixed new giant mushroom props spawning slightly inside the ground and lagging the game
+BUGFIX: Fixed slowdown issues caused by enemies throwing endless physics-enabled projectiles
+BUGFIX*: Tiny Ghost was hanging on to the tip of the wand instead of floating around
+ 
+*MODDING*
+MODDING: Added pickup_count as a fourth parameter when picking up a perk
+MODDING: Lua - GameCreateSpriteForXFrames() - added optional 'emissive' parameter
+ 
+ 
+RELEASE NOTES - Mar 16 2021
+ 
+*GENERAL*
+FEATURE: New Perk: Gas Blood
+UPDATE: Small text adjustments
+UPDATE: A fog of war effect that appears in some biomes now has a biome modifier message
+UPDATE: Optimized some scripts
+UPDATE*: Glass shards from potions thrown by enemies disappear after a while
+UPDATE*: "Cocktails" also break into pieces of glass
+
+*PERKS*
+UPDATE: Applied Lukki Mutation buffs to Leggy Mutation
+UPDATE*: Enhanced Lukki and Leggy Mutation controls
+UPDATE*: Lukki and Leggy Mutation limbs grow in length when perks are stacked
+ 
+*BUG FIXES*
+BUGFIX: Kiuaskivi and Ukkoskivi could be destroyed by explosions a bit too easily
+BUGFIX*: Fixed a miniboss being resurrectable
+
+*MODDING*
+MODDING: Lua - added GameGetCameraBounds()
+MODDING: Profiler displays LuaComponent 'script_source_file' names
+ 
+ 
+RELEASE NOTES - Mar 12 2021
+ 
+*GENERAL*
+UPDATE: Audio - droplets from barrel explosions, potions etc create the appropriate sound when splashing against surfaces
+UPDATE: No damage numbers from lanterns
+UPDATE*: Added deceleration to a couple floating objects so that they're less likely to fly away
+UPDATE*: Made unstackable perks yet less likely to be seen when rerolling
+
+*BUG FIXES*
+BUGFIX: Crash - fixed a possible, rare crash when starting a new game
+BUGFIX: Invisibility didn't turn lukki legs invisible
+BUGFIX*: Sädekivi could be activated also while it was in the inventory
+BUGFIX*: Sädekivi had effects after starting a New Game+
+
+*MODDING*
+MODDING: Lua - Added GameGetOrbCountTotal()
+MODDING: Lua - Added OnCountSecrets hook (Accessible via init.lua)
+MODDING: Breaking - removed custom tags from entities under data/entities/misc/custom_cards/
+
+
+RELEASE NOTES - Mar 10 2021
+
+*GENERAL*
+FEATURE: New Spell: [REDACTED]
+UPDATE: Jungle statue visuals tweaked
+UPDATE: Tannerkivi activates only after being picked up
+UPDATE: Potions always break into pieces of glass
+ 
+*PERKS*
+UPDATE: Lukki Mutation buffed with ability to climb along walls
+UPDATE: Exploding Corpses now grants explosion immunity
+ 
+*BUG FIXES*
+BUGFIX: Inanimate objects could get various status effects, which often didn't work correctly or were outright buggy
+BUGFIX: Text in some potions wasn't localized, other unintended differences between potion types
+BUGFIX*: A biome modifier was forced on in all biomes
+ 
+*MODDING*
+MODDING: Breaking - projectile GameEffects and HitEffects are only applied to entities with "enemy" or "prey" tag
+MODDING: Potion entities were updated to inherit items/pickup/potion.xml for clarity
+
+
+RELEASE NOTES - Mar 9 2021
+
+*GENERAL*
+FEATURE: New enemy: Huhtasieni
+FEATURE: A new biome modifier
+UPDATE*: Increased Haamukivi's effective range after apparently nerfing it too much
+
+*SPELLS*
+FEATURE: New spell: Petrify
+ 
+*PERKS*
+FEATURE: New perk: Summon Sädekivi
+UPDATE*: Clarified Enemy Radar visuals by hiding the radar blips of enemies in camera view
+ 
+*BUG FIXES*
+BUGFIX: Add Trigger, Add Timer & Add Death Trigger should be a bit more consistent
+BUGFIX: Scroll container scroll speed adapts to lots of content
+BUGFIX: Venomous Curse now correctly tracks who cast it
+BUGFIX*: Fixed a nonfunctional secret feature broken in the previous patch
+BUGFIX*: A miniboss was giving double progress entries
+BUGFIX*: Increased the maximum simultaneous spirit cap on Mournful Spirit
+BUGFIX*: Tentacler didn't work 100% correcly
+  
+*MODDING*
+MODDING/BUGFIX: Custom sounds didn't play after starting a new game, unless played before that
+ 
+  
+RELEASE NOTES - Mar 5 2021
+
+*GENERAL*
+FEATURE: A new work-in-progress area
+UPDATE: Polished and clarified Toimari minion spawning
+UPDATE: Buffed Enemy Radar perk
+UPDATE: A certain artifact found in a snowy area now has a pair in a sandy area
+UPDATE*: Luminous Drill can no longer accidentally destroy certain items
+
+*SPELLS*
+UPDATE: Summon rock and other spells that summon physical objects now benefit from modifiers like homing
+ 
+*BUG FIXES*
+BUGFIX: Circe of Vigour shouldn't be able to deal damage instead of healing anymore
+BUGFIX*: Tentacler tentacles spawned from the shooter
+BUGFIX*: Players covered in a lot of glue could end up inside a wall when teleporting to Holy Mountain
+BUGFIX*: Player could only float up if polymorphed into a Skoude
+BUGFIX*: Prevented a softlock caused by [REDACTED]
+BUGFIX*: Fixed a certain artifact falling into the ground and disappearing
+BUGFIX*: Fixed guiding powder, again, again
+BUGFIX*: Fixed excrement disintegrating in sunlight the wrong way
+BUGFIX*: Explosive Box spells should no longer leave ghosts in the world
+
+ 
+RELEASE NOTES - Mar 2 2021
+ 
+*GENERAL*
+UPDATE: Sima stains give Wet status
+UPDATE*: Slightly tweaked how [REDACTED] works
+UPDATE*: Celestial bodies are now attracted to lunar energy
+
+*BUG FIXES*
+BUGFIX*: Certain rare artifacts should be less likely to disappear
+ 
+*MODDING*
+MODDING: Perk progress logging can be turned off via GameAddFlagRun( "no_progress_flags_perk" )
+MODDING: Creature progress logging can be turned off via GameAddFlagRun( "no_progress_flags_animal" )
+MODDING: Spell progress logging can be turned off via GameAddFlagRun( "no_progress_flags_action" )
+MODDING: ProjectileComponent - ground_penetration_max_durability_to_destroy
+MODDING/BUGFIX: GuiAnimateScaleIn() checked for 5 parameters while it required 4
+ 
+ 
+RELEASE NOTES - Feb 26 2021
+
+*GENERAL*
+UPDATE*: Tweaked a text
+
+*BUG FIXES*
+BUGFIX*: Fixed a badly broken script related to new secret content
+BUGFIX*: Fixed some miniboss drops not working
+BUGFIX*: New item had an unintended effect
+ 
+ 
+RELEASE NOTES - Feb 26 2021 Build #1
+ 
+*GENERAL*
+FEATURE: New item: Kuulokivi
+ 
+UPDATE: Combined the Weaken and Wither status effects into one
+UPDATE*: Localizations for most of new content
+UPDATE*: Made Haamukivi less common and reduced its range greatly
+UPDATE*: Made Tuonenkone and Marraskone have a slightly lower range on their effect
+ 
+*SPELLS*
+UPDATE: Shuffled spell unlock pools a bit, hopefully for the last time
+UPDATE: Adjusted the Summon Explosive Box spells to be a bit less lackluster
+ 
+*BUG FIXES*
+BUGFIX: Potion aiming line dots left 1-frame trails
+BUGFIX: The "launch a spell upon bouncing" spells weren't always remembering who shot them
+BUGFIX*: Fungal friends created by perks should no longer be targeted by homing spells
+BUGFIX*: A progress icon wasn't loading properly
+BUGFIX*: A miniboss should be yet less likely to run away
+ 
+*MODDING*
+MODDING: "Cause of death" uses raw killer entity name if entity has the "ui_use_raw_name" tag
+MODDING/BUGFIX: StreamingGetIsConnected() returned an integer instead of boolean
+ 
+ 
+RELEASE NOTES - Feb 25 2021
+
+*GENERAL*
+UPDATE*: Lowered chances of [REDACTED] when [REDACTED]
+ 
+*BUG FIXES*
+BUGFIX*: Potions and [REDACTED] didn't always work correctly together
+ 
+*MODDING*
+MODDING/BUGFIX: ModDevGenerateSpriteUVsForDirectory() didn't generate UV maps if path didn't start with the mod directory ("mods/my_mod/...")
+MODDING: ModDevGenerateSpriteUVsForDirectory() - Improved error messages if invalid uv src files are detected
+MODDING: ModDevGenerateSpriteUVsForDirectory() - added optional 'override_existing' parameter
+MODDING: Lua API documentation - improved documentation of ModDevGenerateSpriteUVsForDirectory()
+ 
+ 
+RELEASE NOTES - Feb 24 2021
+ 
+*GENERAL*
+UPDATE*: Fire spark particles are snapped to the pixel grid when rendering them
+
+*BIOMES, AREAS AND STRUCTURES*
+FEATURE: A new hidden structure
+ 
+*BUG FIXES*
+BUGFIX: Worms attacked some traps
+BUGFIX*: A certain miniboss could not be spawned as expected when player has traveled far away
+
+
+RELEASE NOTES - Feb 23 2021
+
+*GENERAL*
+UPDATE: Fire emits occasional cosmetic spark particles
+
+*BUG FIXES*
+BUGFIX: Fixed one cause of 'Cause of death: "" '
+BUGFIX: Cape lagged behind character when moving quickly
+BUGFIX: Wands and other items lagged behind character when moving quickly
+ 
+*MODDING*
+MODDING: Game mode menu dynamically scales to fit up to six game modes without scrollbar
+ 
+ 
+RELEASE NOTES - Feb 22 2021
+ 
+*GENERAL*
+FEATURE: New item: Cruel Orb
+FEATURE: [REDACTED] might affect your reality!
+
+UPDATE: If you're polymorphed into a sheep, minions created by perks should no longer attack you
+UPDATE*: Shiny Orb and other money-generating items now beautifully throw the gold around
+
+*SPELLS*
+FEATURE: New spell: Summon Explosive Box
+FEATURE: New spell: Summon Large Explosive Box
+
+BUGFIX: Projectile Area Teleport no longer targets charmed or friendly units
+
+*PERKS*
+FEATURE: New perk: Cordyceps
+FEATURE: New perk: Fungal Disease
+UPDATE*: Perks produced by Gamble are automatically given to player
+
+BUGFIX: Spontaneous Generation and Fungal Colony no longer randomly light stuff on fire
+BUGFIX: Rage-Fueled Levitation should work properly with Stronger Levitation
+
+*BIOMES, AREAS AND STRUCTURES*
+FEATURE*: Fine-tuned a structure in the Vault
+
+*BUG FIXES*
+BUGFIX: Enemies with immunities weren't displaying the 'blocked' message properly
+BUGFIX: Freeze immunity also granted melee immunity
+BUGFIX: Multiline perk description rendering was broken
+BUGFIX*: Fixed a missing enemy progress icon
+
+*MODDING*
+MODDING/BUGFIX: GameRefeshSprite() didn't always refresh sprites
+MODDING/BUGFIX*: Fixed an overeager error when generating UV maps
+
+
+RELEASE NOTES - Feb 19 2021
+
+*GENERAL*
+UPDATE*: Made Liimahiisi spawns more common
+UPDATE*: Made Golden Orbs be more likely to give gold before expiring
+UPDATE*: Clarified some text
+
+*SPELLS*
+FEATURE: New spell: Rainbow Trail
+FEATURE: New spell: Glue Shot
+FEATURE: New spell: Short-range Homing
+FEATURE: New spell: Iceball
+
+UPDATE*: Fine-tuned Expanding Sphere sprite
+
+*BIOMES, AREAS AND STRUCTURES*
+FEATURE: A new structure in the Vault
+
+*PERKS*
+FEATURE: New perk: Gamble
+FEATURE: New perk: Fungal Colony
+FEATURE: New perk: Rage-fueled Levitation
+
+UPDATE: Attract Gold gains additional range when stacked
+
+*BUG FIXES*
+BUGFIX: Some disabled teleporters started playing audio after loading game
+BUGFIX: End of Everything spell was prematurely unlocked
+BUGFIX*: Crash on autosave restore menu
+BUGFIX*: Material box powder spraying had liquid sound
+BUGFIX*: Made one of the minibosses not be able to suffocate or take falling damage
+BUGFIX*: Fixed typos that affected the order of enemies in the progress list
+BUGFIX*: Wand traps in the mines were too rusted
+BUGFIX*: The lightnings caused by Cursed Orbs' clouds appeared slightly too high
+BUGFIX*: A miniboss should be less likely to wander away
+
+*MODDING*
+MODDING: Lua API documentation - added a warning about a weird case of GameShootProjectile
+MODDING/BUGFIX*: Lua - Removed BiomeMapGetSize() assert
+
+
+RELEASE NOTES - Feb 11 2021
+
+*GENERAL*
+FEATURE: New enemy: Liimahiisi
+FEATURE: New spell: Remove Bounce
+FEATURE: New item: Auringonsiemen
+FEATURE: Something to find in a cold area
+
+UPDATE: Progress menu shows how many times an enemy has killed the player
+UPDATE: Progress menu enemies are sorted better
+UPDATE: There's a UI hint to enter New Game+
+
+BUGFIX*: Fixed stats
+BUGFIX*: You can run "noita.exe -fix_stats" to fix lost stats and progress
+
+
+RELEASE NOTES - Feb 10 2021
+
+*GENERAL*
+FEATURE: New enemy: Tuonelankone
+FEATURE: New enemy: Marraskone
+FEATURE: New enemy: Pienkätyri
+
+UPDATE*: Miniboss drops adjusted to have a couple more variables
+UPDATE*: Finetuned a new enemy's attacks and behaviour
+UPDATE: The Vault is rusted
+UPDATE: The game tracks streaks for normal runs
+UPDATE: Boss' minions don't drop gold anymore
+UPDATE: Teleportatium & polymorphine are less likely to affect you with just a couple pixels of them
+
+*PERKS*
+UPDATE: Removed Worm Detractor from the perk pool
+UPDATE: 'Remove Worm & Lukki Digging' renamed to 'Feared by Worms'; it now has the Worm Detractor effect as well
+
+*BUG FIXES*
+BUGFIX*: Paha Silmä caused a misplaced sprite to appear in the world before the item was picked up
+BUGFIX*: Fixed Projectile Area Teleport teleporting to a slightly wrong spot sometimes
+BUGFIX: Fixed Teleport Cast teleporting to a slightly wrong spot sometimes
+BUGFIX: Resetting the game after a certain win would crash the game
+BUGFIX: Game stats handle a certain end condition better
+BUGFIX: Sauvojen Tuntija spawn fixed
+BUGFIX: New Game+ - there was a chance that the boss arena had a wrong biome
+BUGFIX: UI - maximum hp was not displayed if your hp was less than 1
+
+*STREAM INTEGRATION*
+FEATURE: Stream event: Friendly Contact Damage
+FEATURE: Stream event: Enemy Contact Damage
+
+*MODDING*
+MODDING: Lua - added EntityGetFilename()
+MODDING: Lua - added EntityGetClosestWormAttractor() and EntityGetClosestWormDetractor() functions
+MODDING: Lua - added GetParallelWorldPos()
+MODDING: Lua - BiomeMapGetSize() returns the biome map size everytime
+MODDING/BUGFIX: MagicNumber - DEBUG_PAUSE_SIMULATION is set to false during loading
+
+
+RELEASE NOTES - Feb 5 2021
+
+*GENERAL*
+FEATURE: New enemy: Elvytyskristalli
+FEATURE: New item: Shiny Orb
+FEATURE: New item: Hiidenkivi
+
+UPDATE: Options - Gamepad auto detection is now the new default
+UPDATE: UI - SHIFT CLICK now does the auto dragging
+UPDATE: UI - Auto drag now supports spells going to the selected wand
+UPDATE: UI - Gamepad - Spells can now be dragged with also A button
+UPDATE*: Reverted the Greed Curse to how it was before due to mystery bugs
+UPDATE: Testing a slight material change to make certain biomes less laggy
+
+BUGFIX: Fixed the transition between two biomes having a seam on the background
+BUGFIX*: Minibosses should now actually drop the same thing when using the same seed
+
+*PERKS*
+UPDATE: Extra Potion Capacity removed from perk pool for now
+UPDATE: Homunculi no longer take damage from Contact Damage
+UPDATE*: Eat Your Vegetables nerfed a bit
+
+BUGFIX*: Eat Your Vegetables should no longer affect healing spells
+BUGFIX: Attempt to further decrease the probability of getting perks you already have
+
+*BUG FIXES*
+BUGFIX: Key binds for open inventory should work better now
+BUGFIX: Minor issue - the background colors were very slightly wrong
+BUGFIX*: Lightning spells should now have normal range
+
+*MODDING*
+UPDATE: LifetimeComponent now has kill_parent and kill_all_parents flags
+UPDATE*: Log spam reduced
+
+
+RELEASE NOTES - Feb 3 2021
+
+*GENERAL*
+UPDATE: Effects that increase/decrease spell damage can't wrap from negative to positive and vice versa
+
+*SPELLS*
+FEATURE: New spell: Black Hole with Death Trigger
+
+UPDATE*: Renamed the Withering Curses to Weakening Curses to better indicate their effect
+UPDATE*: Venomous Curse should no longer require a 1-frame wait between stacks
+BUGFIX*: Fixed Gold to Power doing a minimum of 10000 damage on every shot (whoops)
+
+*PERKS*
+FEATURE: New perk: Eat Your Vegetables (very WIP)
+
+UPDATE*: Fast Projectiles no longer stacks due to some odd behaviour it caused
+UPDATE*: Buffed Boomerang Spells
+
+*BUG FIXES*
+BUGFIX: Fast Projectiles perk sometimes caused crashes and lag
+BUGFIX*: Rare potions could include a material that should not have been there
+
+*MODDING*
+UPDATE: MagicNumbers now has DEBUG_LUA_REPORT_PRINT_FILES for tracking down lua log spam
+
+
+RELEASE NOTES - Feb 2 2021
+
+*GENERAL*
+UPDATE: Minibosses should now drop the same loot every time when using the same seed
+
+*SPELLS*
+FEATURE: New spell: Withering Curse - Projectiles
+FEATURE: New spell: Withering Curse - Explosives
+FEATURE: New spell: Withering Curse - Electricity
+FEATURE: New spell: Withering Curse - Melee
+UPDATE*: Gold Magic renamed to Gold to Power to be more consistent with the naming
+UPDATE*: Added a maximum of 24 000 gold spent on a single cast of Gold to Power
+UPDATE*: Adjusted how Withering Curse works to make it less laggy
+UPDATE*: Withering Curse renamed to Venomous Curse to better indicate its effect
+BUGFIX: Fixed a rare speed multiplier-related slowdown issue
+BUGFIX*: Fixed Freeze Charge adding its damage wrong
+
+*PERKS*
+UPDATE*: Angry Ghost has a small 4-frame minimum delay between shots
+UPDATE*: Risky Living renamed to Close Call to be more different from Living On The Edge
+UPDATE*: Close Call's effect range increased a bit
+
+*BUG FIXES*
+BUGFIX: Fixed a miniboss spawning endlessly
+BUGFIX*: Fixed some erroneous coordinate math
+BUGFIX*: Attempted to make the greed curse behave more reliably
+UPDATE: UI - extremely large numbers are now displayed with numeric abbreviations
+UPDATE: NG+ now cleans up the old world files
+BUGFIX: More Blood -perk didn't always work
+BUGFIX: Unstable teleportatium is now more unstable
+BUGFIX: Game reset - perks are now more deterministic regardless where you reset the game
+
+*MODDING*
+UPDATE: ControlsComponent now has mButtonDownLeftClick
+UPDATE: ControlsComponent mButtonDownRightClick should now work
+UPDATE: gun_actions.lua now lists related_extra_entities for easy listing of modifier entities
+
+
+RELEASE NOTES - Jan 29 2021
+
+*GENERAL*
+FEATURE: A new runestone has appeared!
+FEATURE: Gamepad - analog flying can be enabled from options
+
+*BUG FIXES*
+BUGFIX: Throw potion and switch to wand quickly bug is fixed
+BUGFIX*: Material Box tooltip stays quiet about drinking
+BUGFIX*: Some final progress menu enemy entry fixes
+BUGFIX*: Guiding powder should work better
+
+*SPELLS*
+FEATURE: Spell - Gold Magic
+FEATURE: Spell - Withering Curse
+
+*PERKS*
+FEATURE: Perk - Mournful Spirit
+FEATURE: Perk - Risky Living
+
+UPDATE*: Hungry Ghost now grants you temporary extra damage each time it eats
+
+
+RELEASE NOTES - Jan 28 2021
+
+*GENERAL*
+FEATURE: Item - Material Box
+FEATURE: A very rare and powerful artefact, dropped by a powerful monster
+FEATURE: A high-risk, high-reward variant of an item for the exceptionally greedy
+
+UPDATE: Fixed Vuoksikivi not offering underwater breathing like it was meant to
+UPDATE: Slight adjustments to the mana costs and other details of several spells
+UPDATE: Enemies are holding wand graphically better
+UPDATE: Performance of some rare spell combos has been improved
+UPDATE: Gamepad - aiming cursor now displays materials and items
+
+*PERKS*
+FEATURE: Perk - Hungry Ghost
+
+BUGFIX*: Multiple Angry Ghosts now work as they should
+
+*SPELLS*
+UPDATE: Tiny Ghost may cast stronger spells depending on how much damage you have suffered
+UPDATE: Removed mana cost from Tiny Ghost
+
+*BUG FIXES*
+BUGFIX: A rare crash with stacked Faster Projectiles perk
+
+*MODDING*
+BUGFIX: GameGetPotionColorUint() now returns an unsigned int
+
+
+RELEASE NOTES - Jan 27 2021
+
+*GENERAL*
+UPDATE: The Greed Curse effect now disappears unless you destroy the related crystal, instead of the other way around
+UPDATE: UI - Gamepad - gamepad aiming stick is now rebindable
+UPDATE*: Tweaks and buffs for a new enemy
+UPDATE*: A small structure spawns less covered in snow
+
+*PERKS*
+UPDATE: Angry Ghost now shoots in sync with the player instead of autonomously
+
+*SPELLS*
+FEATURE: Spell - Slow But Steady
+
+UPDATE: Updated Sawblade Orbit to include slightly deadlier sawblades
+
+BUGFIX: Made Fireball Orbit slightly less particle-intensive
+BUGFIX: Tau should behave better
+
+*BUG FIXES*
+BUGFIX*: Playerghost should spawn now
+BUGFIX*: During [SPOILER] - static gold was turned to dynamic gold
+BUGFIX: Enemies hold the wands at a more reasonable height
+
+*MODDING*
+UPDATE: Larpa spells (and Quantum Shift) now add the tag "projectile_cloned" to all entities created using them
+
+
+RELEASE NOTES - Jan 26 2021
+
+*GENERAL*
+FEATURE: A new enemy
+
+UPDATE*: Tweaked electric trap box damage and range
+UPDATE: Alt + Enter now toggles between fullscreen and windowed mode
+UPDATE: F2 screenshot key is rebindable
+UPDATE: UI - Options - right clicking on language takes you back
+UPDATE: UI - Gamepad - now you can set the game to use a specific controller
+UPDATE: UI - Gamepad - gamepad ui keys are now rebindable
+UPDATE: Options - added Open Gif Directory shortcut to options
+UPDATE: Hiisi's weakness should now work everywhere
+UPDATE: Made a miniboss drop some spells to make all optional bosses behave similarly
+
+*SPELLS*
+FEATURE: Added 5 funny modifier spells
+
+UPDATE: Dormant crystal detonation has been reworked and renamed to Explosive Detonator
+
+*BIOMES, AREAS AND STRUCTURES*
+FEATURE*: Another new structure in Mines
+
+UPDATE*: Made a certain cold area have a slightly nicer layout (still WIP)
+
+*PERKS*
+UPDATE: Exploding Gold now makes gold explode when enemies go near the nuggets
+UPDATE: Certain perks may now remove other perks from the perk pool if their effects are very similar
+
+*BUG FIXES*
+BUGFIX: Fixed Thundercloud's lightning strikes appearing way too high up
+BUGFIX: Some rare named wands could end up with duplicate always cast spells when game is saved
+BUGFIX: Fixed game trying to open an extremely small resolution window
+BUGFIX*: Fixed a key rebind bug in wand selection UI
+BUGFIX*: Mouse cursor reappears faster in menus when using a controller
+
+
+RELEASE NOTES - Jan 22 2021
+
+*GENERAL*
+FEATURE: Controller auto detection now automatically switches between keyboard and gamepad controls
+
+UPDATE: Wand selection UI - hot keys (1,2,3,4) now work with it
+
+*BUG FIXES*
+BUGFIX: Wand selection UI - wand now goes to the requested empty wand slot 
+BUGFIX*: Gamepad item quick selects are rebindable
+BUGFIX*: Gamepad rebinds some button names were missing
+
+
+RELEASE NOTES - Jan 21 2021
+
+*GENERAL*
+FEATURE: Two new biome modifiers!
+FEATURE: Controller buttons are now rebindable
+FEATURE: Two new enemies!
+FEATURE: Made a certain cold area more interesting...
+
+UPDATE: Player Ghost is back
+UPDATE: Pause menu now displays NG+ counts and far away lands
+UPDATE: The perk reroll machine no longer stops working if there are still perks to pick up
+
+*BUG FIXES*
+BUGFIX: Fixed a rare crash, caused by explosion being too tiny
+
+*SPELLS*
+FEATURE: New Spell: Mana To Damage
+FEATURE: New Spell: Projectile Area Teleport
+
+*PERKS*
+FEATURE: New Perk: Healthy Exploration
+
+UPDATE: Wand Experimenter now heals three times what it used to
+
+*MODDING*
+MODDING: MagicNumbers - added DEBUG_PERSISTENT_FLAGS_DISABLED - allows for disabling of permanent unlocks
+MODDING: DamageModelComponent - added healing_particle_effect_entity
+
+
+RELEASE NOTES - Jan 19 2021
+
+*GENERAL*
+UPDATE: Reduced electric trap box damage
+
+*SPELLS*
+FEATURE: New spell: Tau
+FEATURE: New spell: Sigma
+FEATURE: New spell: Plasma Cutter
+FEATURE: New spell: Plasma Beam Enhancer
+
+UPDATE: The Duplicate spell is no longer a modifier to avoid some recursion-related crashes
+
+*BIOMES, AREAS AND STRUCTURES*
+FEATURE: New structure in Mines
+
+*BUG FIXES*
+BUGFIX: Fixed a rare instance where casting a specific combination of spells could instantly kill the player
+BUGFIX: Guiding powder was pointing wrong in certain cases
+BUGFIX: Chain Spell was lagging heavily with certain spell combinations
+BUGFIX: More hatred perk affected relations of player and plague rats
+BUGFIX: Replay edit progress display was missing a '%' character
+BUGFIX*: Concentrated Mana was no longer melting certain metals
+BUGFIX: Cursed Orb's effect didn't work when combined with other effects like Necromancy
+BUGFIX: Font rendering - on some graphics cards text rendering would cause nasty vertical glitches
+
+*MODDING*
+MODDING: Lua - added GetMaterialInventoryMainMaterial()
+MODDING: Lua - added ConvertMaterialEverywhere()
+MODDING: Lua - added CellFactory_GetUIName()
+MODDING: Lua - added ConvertMaterialOnAreaInstantly()
+ 
+ 
+RELEASE NOTES - Jan 13 2021
+
+*GENERAL*
+FEATURE: New enemy: Suur-Ukko
+FEATURE: New item: Paha Silmä
+
+*PERKS*
+UPDATE: Removed Low and High Gravity perks for now
+
+*SPELLS*
+UPDATE*: Liquid Detonation no longer affects magical liquids
+UPDATE*: Glimmer spells are slightly more consistent
+ 
+*BIOMES, AREAS AND STRUCTURES*
+FEATURE: New structures in Coal Pits and Snowy Depths
+ 
+*POLISH*
+UPDATE: The Nightmare Mode map has been updated with some of the newly-added biomes
+ 
+*BUG FIXES*
+BUGFIX: Several enemies had broken progress menu icons
+BUGFIX*: Normal fire melted metals
+BUGFIX*: Some wands spawned with multicast Always Cast spells
+ 
+*MODDING*
+MODDING/BUGFIX: LaserEmitterComponent didn't set damage based on damage_to_entities
+ 
+ 
+RELEASE NOTES - Dec 21 2020
+
+*GENERAL*
+FEATURE: A new miniboss
+FEATURE: A new side area and two enemies to go with it
+FEATURE: Some new items to make looking for secrets a bit easier
+ 
+*PERKS*
+FEATURE: Perk - Contact Damage
+UPDATE: Clarified the descriptions of the Concentrated Spells & Pinpointer perks
+ 
+*SPELLS*
+FEATURE: Spell - Vacuum Field
+FEATURE: Spell - Liquid to Explosion
+FEATURE: Spell - Plasma Beam Cross
+FEATURE: Spell - Plasma Beam Bounce
+FEATURE: Spell - Plasma Beam Thrower
+FEATURE: Spell - Concentrated Explosion
+FEATURE: Spell - Aimed Arc
+ 
+*STREAMING INTEGRATION*
+FEATURE: Stream event - Holiday Mood
+ 
+*POLISH*
+UPDATE: Moved miniboss spell unlocks around a bit
+ 
+*MODDING - DOCUMENTATION*
+MODDING: Lua API documentation - removed a duplicate comma
+
+
+RELEASE NOTES - Dec 17 2020
+
+*SPELLS*
+FEATURE: Spell - Powder Vacuum Field
+FEATURE: Spell - Liquid Vacuum Field
+UPDATE*: Expanding Sphere deals more damage and takes damage modifiers into account
+ 
+*BALANCE*
+UPDATE: Polymorphine and Chaotic Polymorphine need more than 1 pixel to take effect
+UPDATE*: Extra Potion Capacity stacks and is more powerful
+UPDATE*: Returned Stronger Hearts to its previous strength
+ 
+*POLISH*
+FEATURE: A new guiding alchemy reaction
+UPDATE*: Added more audio when triggering a certain new secret
+ 
+*BUG FIXES*
+BUGFIX: Sauvojen Tuntija gave another miniboss' drops by accident
+BUGFIX: Rat minions won't attack you when berserk
+BUGFIX*: Prevented creatures from polymorphing into Veska, Mokke, Molari or Seula
+BUGFIX*: Fixed an error in the description of a new spell
+BUGFIX*: Attempted to make a miniboss less likely to drop through the ground
+BUGFIX*: Rat minions from new rat perks will get the same stats as Plague Rats
+ 
+*MODDING - DOCUMENTATION*
+MODDING: Lua API documentation - has type information for all functions
+MODDING: Lua API documentation - improved some function descriptions
+MODDING: Lua API documentation - added generate_lua_documentation.lua which will some day implement API doc generation
+ 
+ 
+RELEASE NOTES - Dec 14 2020
+ 
+*PERKS*
+FEATURE: Perk - Item Radar
+FEATURE: Perk - Extra Potion Capacity
+FEATURE: Perk - Spontaneous Generation
+FEATURE: Perk - Revenge Rats
+ 
+UPDATE: Stronger Hearts can now stack, but starts out giving only 50% extra hp from hearts
+UPDATE: Perks that do not stack should no longer appear ever again when rerolling
+UPDATE: Certain stackable perks (such as Low Gravity) appear less often when rerolling
+UPDATE: Perks that can only stack a specific number of times should no longer appear after that
+UPDATE: The Always Cast perk has a new spell pool to pick from
+ 
+*SPELLS*
+FEATURE: Spell - Remove Explosion
+FEATURE: Spell - Plasma Beam
+FEATURE: Spell - Expanding Sphere
+FEATURE: A selection of 6 absurd spells
+FEATURE: A selection of 8 whimsical spells
+ 
+*STREAMING INTEGRATION*
+FEATURE: Stream event - Always Cast
+ 
+*BIOMES, AREAS AND STRUCTURES*
+UPDATE: New props and structures in Snowy Wasteland and Desert
+ 
+*BALANCE*
+UPDATE: Stacking multiple Permanent Shield perks works better
+UPDATE: Essence to Power now counts player summon -like spells
+UPDATE: Hiisi Base lamps give weaker electric jolts
+UPDATE: Retired multicast spells from the always cast spell pool (for now) due to certain bugs
+UPDATE: Added new spells to the always cast lineup
+ 
+*POLISH*
+UPDATE: Underground Jungle's trees should no longer suddenly start blocking projectiles
+UPDATE: Added a particle effect for Projectile Repulsion Field
+UPDATE: The teleportation and blindness statuses now have an HUD element
+UPDATE: The perk reroll machine's cost is now centered! Isn't that beautiful?
+UPDATE: Slightly adjusted a secret
+UPDATE: Slightly adjusted another secret
+ 
+*BUG FIXES*
+BUGFIX: Fixed an odd interaction between increased explosive damage and certain projectiles
+BUGFIX: Fixed a rare error with the Wand Refresh spell
+BUGFIX: Prevented a certain cube from spawning in nightmare mode
+BUGFIX: A miniboss couldn't be targeted by homing
+BUGFIX: A miniboss didn't spawn its rewards correctly
+BUGFIX: Extra Wand Capacity counted Always Casts when deciding what the maximum wand capacity could be
+BUGFIX: Armed Creature streaming event would give wands to too many creatures
+BUGFIX: Fixed a rare crash with streaming event chat names
+ 
+*MODDING*
+MODDING: Perks now more clearly indicate whether they stack or not
+MODDING: Added stackable_is_rare for stackable perks that only seldom reappear
+MODDING: Added stackable_how_often_reappears for changing how quickly a perk can reappear when rerolling (default value 4)
+MODDING: perk_list.lua now has STACKABLE_YES and STACKABLE_NO to make the stackability more obvious
+MODDING: Steam Workshop uploader now supports .plz files
+MODDING/BUGFIX: Lua - GuiImage() rect animation layout calculation used size of whole sprite sheet instead of a single frame

@@ -1,0 +1,39 @@
+﻿UPDATE: Kolmisilmä rework (WIP)
+UPDATE: Gold nugget normal maps are more detailed and bit more normal
+UPDATE: First 50 gold dropped by enemies is spawned as smaller nuggets
+UPDATE: Gold nuggets are more glittery
+UPDATE: Lava lake and dark flooded caves layouts adjusted
+UPDATE: Added more shops to biomes
+
+BUGFIX: Scrolling UIs broke if playing fullscreen on a monitor with aspect ratio wider than 16:9
+BUGFIX: Some haunting files were saved if mods were enabled
+BUGFIX: Fixed some issues with loading haunting files saved when mods were enabled
+BUGFIX: Autosave was broken in nightmare game mode
+BUGFIX: Crash - projectile timer trigger crashed when used with bombs, which some mods allowed
+BUGFIX: Tentacle shot from trigger projectile didn't start from correct coordinates
+BUGFIX: Tentacles shot near 0,0 always shot towards 0,0
+BUGFIX: Enemy laser sights were sometimes left visible longer than they should
+BUGFIX: Enemy tentacles, turrets, jetpack particles etc weren't affect by invisibility status
+BUGFIX: Invisible enemies didn't become visible when doing dash/melee attacks
+BUGFIX: Backbuffer size wasn't updated if changing resolution before entering game
+BUGFIX: Autosave restore didn't work correctly when workshop mods were enabled
+BUGFIX: Enemy radar did not detect bosses or Lukkis
+BUGFIX: Alchemist kept on throwing the same potion if it stood still
+BUGFIX: Improved stability of ceiling chain torches
+
+MODDING: Breaking - moved collapse masks under "data/procedural_gfx"
+MODDING: Lua - added RaytraceSurfaces()
+MODDING: Lua - added RaytraceSurfacesAndLiquiform()
+MODDING: Lua - added RaytracePlatforms()
+
+﻿HOTFIXES - Mar 3 2020
+
+BUGFIX: Big worm's health bars were ragdolled
+BUGFIX: Some main character's attributes were different between daily run and other modes
+BUGFIX: Background layer had pieces that would not load correctly
+BUGFIX: Wand Radar perk now ignores the wands that the player holds
+
+MODDING: Game warns if a workshop mod might require a never version of the game
+MODDING: Lua - added ModGetAPIVersion()
+MODDING: XML entity serialization - Base now has include_children attribute
+MODDING/BUGFIX: Custom FMOD banks didn't work when mod was used via Steam Workshop

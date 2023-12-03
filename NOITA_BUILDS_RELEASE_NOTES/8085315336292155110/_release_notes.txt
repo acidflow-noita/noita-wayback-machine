@@ -1,0 +1,28 @@
+ 
+RELEASE NOTES - Oct 18 2019
+ 
+FEATURE: Experimental mod support turned on 
+FEATURE: Added 10 new spells 
+FEATURE: Added two new enemies 
+FEATURE: Added 3 new perks 
+FEATURE: Added a secret wormy thing 
+FEATURE: Mods/lua - basic lua sandboxing
+FEATURE: Mods/lua - added DebugGetIsDevBuild()
+FEATURE: Mods/lua - added PhysicsApplyTorqueToComponent( entity_id, component_id, float torque )
+FEATURE: Mods/lua - added PhysicsApplyTorque( entity_id, float torque )
+FEATURE: Mods/lua - added EntityRemoveTag( entity_id, tag )
+FEATURE: Mods/lua - added EntityGetClosest( pos_x, pos_y )
+ 
+UPDATE: Touch of X -spells are now more consistent and have more maximum uses 
+UPDATE: Circle of X -spells have more uses 
+UPDATE: The shop guard now takes few seconds to spawn
+UPDATE: Mods/lua - removed GameDirector
+ 
+BUGFIX: Boss cannot be polymorphed no more 
+BUGFIX: Added some missing enemy/creature icons to the progress menu 
+BUGFIX: Alt tabbing when teleporting killed you
+BUGFIX: Teleport projectile could kill you if you teleported too far
+BUGFIX: Tiny physics bodies shouldn't do as much damage to the player
+BUGFIX: Sometimes angering the Gods spawned two guards
+BUGFIX: Crash - when generating potion name
+BUGFIX: Mods/lua - EntityHasTag() - adds the queried tag to entity

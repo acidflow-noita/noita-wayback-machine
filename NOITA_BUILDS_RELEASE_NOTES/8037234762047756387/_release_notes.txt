@@ -1,0 +1,27 @@
+ 
+RELEASE NOTES - Oct 1 2019
+ 
+FEATURE: Added new eggs! 
+FEATURE: Added two new alchemical curiosities 
+FEATURE: Added four new spells 
+FEATURE: Added a selection of curious rarity spells 
+FEATURE: Settings/UI - 'show hovered material/item name next to mouse'
+FEATURE: UI - Stain status amount is displayed next to icon 
+FEATURE: UI - Fire status duration displayed in the status area 
+FEATURE: Added a new rare monster 
+FEATURE: Added two new mysteries into the game world 
+ 
+UPDATE: Walking through 1-2px pools of toxic sludge should not activate the status effect if not previously stained 
+UPDATE: Player starts with a water flask 
+UPDATE: Added small safety rooms to the start of Snowy Depths, Hiisi Base and The Vault 
+UPDATE: Giga Death Cross is now properly Giga 
+UPDATE: Adjusted Snowy Depths & Hiisi Base enemy distribution slightly 
+UPDATE: Adjusted spell shop distribution slightly 
+UPDATE: Adjusted projectile knockbacks 
+UPDATE: Clarified some spell descriptions 
+UPDATE: Adjusted knockback on the 'Concentrated shot' perk 
+UPDATE: Increased egg-friend HP to make them last longer
+ 
+BUGFIX: Added some missing enemy progress icons
+BUGFIX: Fixed potential crashes in platform layer 
+BUGFIX: Fixed a glitchy secret interaction 

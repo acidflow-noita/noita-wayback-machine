@@ -1,0 +1,110 @@
+﻿﻿﻿HOTFIXES - May 19 2020
+
+BUGFIX: Fixed Intense Concentrated Light
+BUGFIX: Fixed gamepad drinking and item drop binding conflict
+
+MODDING: Progress menu displays creatures from mods
+MODDING: Exposed some parameters of IKLimbAttackerComponent
+
+
+HOTFIXES - April 30 2020
+ 
+UPDATE: Made some drinking effects more fair, or less dangerous
+UPDATE: Switching item from Ukkoskivi when submerged is safer
+UPDATE: Kiuaskivi no longer works as X
+UPDATE: Kiuaskivi provides protection from X
+UPDATE: Swapper is less common
+UPDATE: Gamepad spray/throw scheme can be changed via Options
+
+BUGFIX: Stomach was very small if continuing old save, making eating and drinking very dangerous
+
+MODDING: Lua - added EntityIngestMaterial()
+
+ 
+RELEASE NOTES - Apr 28 2020
+ 
+FEATURE: Eating/drinking rework - lots of new ingestion effects
+FEATURE: Kolmisilmä rework (WIP)
+FEATURE: New spell: Tiny Ghost
+FEATURE: New spell: Prickly Spore Pod
+FEATURE: New spell: Auto-Aim 
+FEATURE: New spell: Projectile Energy Shield
+FEATURE: New spell: Automatic Rotation
+FEATURE: New spell: Swapper
+FEATURE: New spell: Propane Tank 
+FEATURE: New spell: Intense Concentrated Light
+FEATURE: New perk: Unlimited Spells
+FEATURE: New perk: Always Cast
+FEATURE: New perk: No More Shuffle 
+FEATURE: New secret perk
+FEATURE: New item: Broken Wand
+FEATURE: New item: Kiuaskivi
+FEATURE: New item: Kuu
+FEATURE: New enemy: Vaihdosmestari
+FEATURE: New elusive enemy
+FEATURE: Added growing vines to Underground Jungle
+ 
+UPDATE: Overhauled Hiisi Base layout and visuals
+UPDATE: Overhauled Underground Jungle visuals
+UPDATE: Gold nugget normal maps are more detailed and bit more normal
+UPDATE: First 50 gold dropped by enemies is spawned as smaller nuggets
+UPDATE: Gold nuggets are more glittery
+UPDATE: Lava lake and dark flooded caves layouts adjusted
+UPDATE: Added more shops to biomes
+UPDATE: Casting and throwing via mouse is blocked while inventory is open (can be changed via options)
+UPDATE: Switched default Throw and Spray buttons around
+UPDATE: Eggs have been updated
+UPDATE: Thunderstone is more useful
+UPDATE: Active item is retained when saving a game
+UPDATE: More variation in loading screen music
+UPDATE: Smoother transition out of loading screen music
+UPDATE: Homing and other spells now affect bombs and other physics projectiles
+UPDATE: Homing does not work on invisible targets
+UPDATE: Some Mestaris bleed more magically
+UPDATE: Propane tanks are now more deterministic
+UPDATE: Can't get the Victory achievement if mods have been active during a run
+UPDATE: Flask icon in item info box displays the contents
+UPDATE: Vampirism health regeneration speed is less tedious
+UPDATE: Acceleratium lasts a lot longer
+UPDATE: No one likes rats, not even the healers
+UPDATE: Disabled drinking while swimming
+UPDATE: Charmed creatures maintain their charm when polymorphed
+UPDATE: Piercing Shot can now hit the caster
+UPDATE: Renamed an item
+ 
+BUGFIX: Ragdolls are now less likely to get stuck on ground
+BUGFIX: Creature sprites turned blurry from time to time 
+BUGFIX: Flashing of the background mountains while teleporting should happen less now
+BUGFIX: Creatures that hatched from eggs used to drop gold
+BUGFIX: Full sprite sheets rarely flashed for a frame
+BUGFIX: Procedural generation would sometimes create a dead end start for the Temple of the Art and Coal Pits
+BUGFIX: Perk spawning code sometimes spawned duplicate perks too soon
+BUGFIX: Liquid splash sometimes played while standing still
+BUGFIX: Torjuntalaite didn't sink in liquids
+BUGFIX: Certain spidey perk made reaching a red portal harder
+ 
+MODDING: Lua - added ComponentGetValue2()
+MODDING: Lua - added ComponentSetValue2()
+MODDING: Lua - added ComponentObjectGetValue2()
+MODDING: Lua - added ComponentObjectSetValue2()
+MODDING: Lua - added EntityGetComponentIncludingDisabled()
+MODDING: Lua - added EntityGetFirstComponentIncludingDisabled()
+MODDING: Lua - added EntityLoadToEntity()
+MODDING: Lua - added StringToHerdId()
+MODDING: Lua - added HerdIdToString()
+MODDING: Lua - added GetHerdRelation()
+MODDING: Lua - added EntityGetHerdRelation()
+MODDING: Lua - added EntityGetFirstHitboxCenter()
+MODDING: Lua - added EntityInflictDamage()
+MODDING: Lua - added ComponentGetIsEnabled()
+MODDING: Lua - fixed some incorrect and missing function names in documentation
+MODDING: Lua - added support for debugging lua scripts using the Decoda debugger (see tools_modding/lua_debugging.txt)
+MODDING: Lua - added support for statically checking lua scripts using luacheck (see tools_modding/lua_debugging.txt)
+MODDING: Lua - added call_init_function to LuaComponent (see potion.xml for example)
+MODDING: Lua - added script_enabled_changed to LuaComponent
+MODDING: Lua - potion scripts are now moddable via ModLuaFileAppend
+MODDING: Lua - status effects are moddable via scripts/status_effects/status_list.lua
+MODDING: Ingestion effects are moddable via data/materials.xml
+MODDING: Breaking - got rid of the LuaComponent execute_every_n_frame>10000 hack. Use -1 for infinite wait
+ 
+MODDING/BUGFIX: Lua - ComponentObjectGetMembers() didn't correctly return member values

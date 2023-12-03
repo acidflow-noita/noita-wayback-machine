@@ -1,0 +1,12 @@
+ 
+CHANGES FROM MASTER BUILD - Oct 25 2019 
+ 
+FEATURE: Perks can be rerolled with gold
+FEATURE: Added 3 new perks 
+FEATURE: Added 2 new spells 
+FEATURE: Added a new secret area 
+ 
+BUGFIX: Gamepad cursor sometimes focused on screen corner 
+BUGFIX: Emerald tablets did collision damage to berserked player
+ 
+MODDING: Mod list is scrollable 

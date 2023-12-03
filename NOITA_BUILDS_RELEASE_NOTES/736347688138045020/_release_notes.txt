@@ -1,0 +1,27 @@
+
+CHANGES FROM MASTER BUILD - Oct 30 2019 
+ 
+FEATURE: Perks can be rerolled with gold
+FEATURE: Added 3 new perks 
+FEATURE: Added 3 new spells 
+FEATURE: Added 2 new secret areas 
+FEATURE: Added 2 new enemies 
+FEATURE: Secret area is harder to get to
+ 
+UPDATE: Repositioned a secret item into a more sensible spot 
+ 
+BUGFIX: Gamepad cursor sometimes focused on screen corner 
+BUGFIX: Emerald tablets did collision damage to berserked player 
+BUGFIX: Rock spell did collision damage to berserked player 
+BUGFIX: Several spells listed a wrong type 
+BUGFIX: Enemies killed with lightning dropped double gold
+BUGFIX: Enemies killed with bombs dropped double gold
+BUGFIX: Crash - rare crash in inventory logic
+BUGFIX: Performance/modding - some sprite rendering paths accessed the filesystem every time a sprite was rendered and any mods were enabled
+BUGFIX: Rerolled perks rolled off screen
+ 
+MODDING: Mod list is scrollable 
+MODDING: Lua - added ComponentGetMetaCustom( component_id, variable_name )
+MODDING: Lua - added PhysicsGetComponentVelocity( entity_id, component_id ) -> vel_x,vel_y
+MODDING: Lua - added PhysicsGetComponentAngularVelocity( entity_id, component_id ) -> vel
+MODDING: Lua - updated lua_api_documentation.txt

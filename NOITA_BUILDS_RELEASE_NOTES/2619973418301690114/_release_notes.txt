@@ -1,0 +1,18 @@
+ 
+RELEASE NOTES - Oct 16 2019
+ 
+FEATURE: Experimental mod support turned on 
+FEATURE: Added 6 new spells 
+FEATURE: Added two new enemies 
+FEATURE: Added two new perks 
+ 
+UPDATE: Touch of X -spells are now more consistent and have more maximum uses 
+UPDATE: Circle of X -spells have more uses 
+UPDATE: The shop guard now takes few seconds to spawn
+ 
+BUGFIX: Boss cannot be polymorphed no more 
+BUGFIX: Added some missing enemy/creature icons to the progress menu 
+BUGFIX: Alt tabbing when teleporting killed you
+BUGFIX: Teleport projectile could kill you if you teleported too far
+BUGFIX: Tiny physics bodies shouldn't do as much damage to the player
+BUGFIX: Sometimes angering the Gods spawned two guards

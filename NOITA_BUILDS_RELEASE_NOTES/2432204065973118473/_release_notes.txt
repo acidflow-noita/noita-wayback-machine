@@ -1,0 +1,16 @@
+﻿﻿FEATURE: 7 new spells
+
+UPDATE: Steam - Opening Steam overlay pauses the game
+UPDATE: Overhauled Magical Temple layout and visuals
+UPDATE: Overhauled Temple of the Art layout and visuals
+UPDATE: Added new puzzle rooms to Temple of the Art and Snowy Depths
+UPDATE: Enhanced trap box visuals and functionality
+UPDATE: Added Enemy and wand radar perks
+UPDATE: Alcohol emits flammable and intoxicating fumes
+UPDATE: Mod menu improvements
+ 
+BUGFIX: Teleport spell created shell casings
+ 
+MODDING: Organized files in "data/biome_impl/" into subfolders (breaking change)
+MODDING: Lua - added EntityGetRootEntity()
+MODDING: Lua - added GameCreateSpriteForXFrames()

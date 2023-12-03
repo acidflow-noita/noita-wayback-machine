@@ -1,0 +1,13 @@
+ 
+--- RELEASE NOTES - Sep 26 2019 ---
+ 
+FEATURE: Replay recorder - create gifs of your deaths (or at any time via F11/X). Can be enabled via options.
+FEATURE: One new spell!
+FEATURE: A small new surprise for curious players
+ 
+UPDATE: Enabled steam minidump crash reporting
+ 
+BUGFIX: Audio - enemy TNT throw sound is VERY loud
+BUGFIX: Wrong background art in mines
+BUGFIX: A source of infinite gold
+BUGFIX: Entering Holy Mountain a certain way disallows wand editing

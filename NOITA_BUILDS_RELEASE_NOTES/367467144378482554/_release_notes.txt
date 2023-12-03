@@ -1,0 +1,32 @@
+﻿FEATURE: Reset. New games can be started without having restart the whole program,
+FEATURE: New perk: Levitation Trail
+FEATURE: New physical wires and hazardous objects
+FEATURE: New rope bridges
+FEATURE: Proper worm ragdolls
+FEATURE: Proper lukki ragdolls
+ 
+UPDATE: Backgrounds blend together in a less edgy way
+UPDATE: Kolmisilmä has a custom shield. Increased base HP. Ceiling collapse works more reliably.
+UPDATE: Improved some common wood textures
+UPDATE: New Orbroom graphics
+UPDATE: Tubelights hang on wires and they can give electric shocks when broken
+UPDATE: New background structures in Coal Pits
+UPDATE: New background in Fungal Caverns
+UPDATE: Memory use optimization - reduced baseline memory use by 10-15%
+UPDATE: File access optimization - less redundant copies
+
+BUGFIX: Ragdoll joints weren't retained over a save-load cycle
+BUGFIX: Lanterns and other props drifted spatially over a save-load cycle (fixed in some biomes)
+BUGFIX: Mine cart sometimes had invisible forces holding it together when split in multiple parts
+BUGFIX: Fixed some physical props losing their transform, destruction and other properties on a save-load cycle
+BUGFIX: Intense Concentrated Light caused some spell combinations to stay perpetually alive
+BUGFIX: Autoaim targeted the shooter if stained with Berserkium
+ 
+MODDING: Lua - added EntityAddComponent2()
+MODDING: Lua - added PhysicsBody2InitFromComponents()
+MODDING: Lua - added DoesWorldExistAt()
+MODDING: Lua - added ProceduralRandomi
+MODDING: Lua - added BiomeSetValue, BiomeGetValue
+MODDING: Lua - ComponentGet/SetValue2 API supports access to some internals of VerletPhysicsComponent. (For example masses, positions)
+MODDING: Lua - utilities.lua - added component_read/write() helpers
+MODDING: Added PhysicsBody2Component and PhysicsJoint2Component, an improved API for creating physics-based objects

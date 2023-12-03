@@ -1,0 +1,262 @@
+UPDATE: Made biome modifiers slightly more common
+UPDATE: Daily run seed is fetched sooner, so the game mode menu does not have wait for it
+UPDATE: Attempted to make acid slightly easier to differentiate from toxic sludge
+UPDATE*: Gave Raukka a shield
+UPDATE*: Made Raukka more likely to be friendly with other creatures
+UPDATE*: Made Taivaankatse immune to polymorphing
+UPDATE*: Spells to Power increases explosion radius slower to avoid lag
+ 
+BUGFIX: Fixed an ancient typo in lava reactions
+BUGFIX*: Fixed Raukka not having a progress menu icon
+BUGFIX*: Made the new spell shop also work in the last Holy Mountain
+BUGFIX*: Raukka did not have a progress menu icon
+BUGFIX*: Personal Laserbeam could hit the player carrying it
+ 
+MODDING: Lua - Added GuiZSet()
+MODDING: Lua - Added GuiZSetForNextWidget()
+MODDING: Lua - Added GuiIdPushString()
+MODDING: Lua - Added GuiImageNinePiece()
+MODDING: Lua - Added GuiBeginAutoBox()
+MODDING: Lua - Added GuiEndAutoBoxNinePiece()
+MODDING: Lua - Added GuiBeginScrollContainer()
+MODDING: Lua - Added GuiEndScrollContainer()
+MODDING: Lua - Added GuiLayoutBeginLayer()
+MODDING: Lua - Added GuiLayoutEndLayer()
+MODDING: Lua - Added GuiGetImageDimensions()
+MODDING: Lua - Added GuiGetPreviousWidgetInfo()
+MODDING: Improved entity lua API documentation - added type information
+MODDING*: Mod settings lua live reload works in main menu 
+ 
+RELEASE NOTES NOV 20 2020 Build #2
+ 
+BUGFIX*: Personal Laserbeam was behaving funny when holding something else than a wand
+ 
+MODDING: Lua - GuiButton() parameter order is consistent with other Gui functions. The old order is also dynamically supported
+MODDING: We will be adding more Gui lua functionality. Now, have a nice weekend!
+ 
+ 
+RELEASE NOTES NOV 20 2020 Build #1
+ 
+FEATURE: New dangerous props in Temple of the Art 
+FEATURE: Spell shops in Holy Mountains have twice the spells to sell!
+FEATURE: New enemy: Taivaankatse
+FEATURE: New enemy: Raukka
+FEATURE: New spell: Phi
+FEATURE: New spell: Homebringer Teleport Bolt
+FEATURE: New spell: Myriad Spell
+FEATURE: New spell: Magical Explosion
+FEATURE: New spell: Spells to Power
+FEATURE: New spell: Summon Omega Sawblade
+FEATURE: New spell: Spiraling Arc
+FEATURE: New spell: Orbit Arc
+FEATURE: New spell: Temporary Wall
+FEATURE: New spell: Temporary Platform
+FEATURE: New perk: Personal Laserbeam
+FEATURE: New perk: Extra Shop Item
+ 
+UPDATE: Reduced the cost of spells in Holy Mountains slightly
+UPDATE: Increased changes of perk pool having all perks
+UPDATE: Slight increase in variety in the Temple of the Art layout
+UPDATE: Perk - Made Boomerang Shots not increase projectile damage for now as a placeholder fix to healing shot bugs
+UPDATE: Testing a slightly different freeze effect to maybe improve performance
+UPDATE: Made certain new enemies not able to suffocate
+UPDATE: What is above is no longer exactly like what is below
+UPDATE: Made some spells somewhat more common
+UPDATE: Made Odd Firebolt have a more interesting flight pattern
+UPDATE*: Wizard's Den looks a bit more like its own thing
+ 
+BUGFIX: Made Haavoittajamestari's status effect stop at 10 hp to prevent a hp-multiplying exploit
+BUGFIX: Fixed an exploit that allowed still getting extra HP from enemies not meant to give it
+BUGFIX*: Vasta and Vihta accumulated too many always cast spells
+BUGFIX*: Fixed more Wand Refresh infinite loops
+ 
+MODDING: Lua - GamePrintImportant() takes optional ui art parameter, made second parameter optional
+MODDING: Lua - GuiLayoutAddHorizontalSpacing() takes optional amount parameter
+MODDING: Lua - Added GuiOptionsAdd()
+MODDING: Lua - Added GuiOptionsRemove()
+MODDING: Lua - Added GuiOptionsClear()
+MODDING: Lua - Added GuiOptionsAddForNextWidget()
+MODDING: Lua - Added GuiColorSetForNextWidget()
+MODDING: Lua - Added GuiIdPush()
+MODDING: Lua - Added GuiIdPop()
+MODDING: Lua - Added GuiAnimateBegin()
+MODDING: Lua - Added GuiAnimateEnd()
+MODDING: Lua - Added GuiAnimateAlphaFadeIn()
+MODDING: Lua - Added GuiAnimateScaleIn()
+MODDING: Lua - Added GuiImage()
+MODDING: Lua - Added GuiImageButton()
+MODDING: Lua - Added GuiGetScreenDimensions()
+MODDING: Lua - Added GuiGetTextDimensions()
+MODDING: Improved gui lua API documentation
+MODDING*: Improved mod settings API documentation
+MODDING*: Moved mod settings under options menu
+MODDING*: Mod setting ui_description is displayed
+MODDING*: Mod setting image support
+MODDING*: Mod setting category support
+MODDING*: Mod setting lua code is no longer ran until in the mod settings menu, to avoid situations where the code would crash the new game menu
+ 
+ 
+RELEASE NOTES NOV 17 2020
+ 
+UPDATE: Biome modifiers texts are displayed more prominently
+UPDATE: Runestones now activate as soon as you throw them
+UPDATE*: Reduced Zeta's mana cost
+UPDATE*: Sauna doesn't burn down by accident as easily anymore
+ 
+BUGFIX: Certain special ending code and progress tracking wasn't working
+BUGFIX: Fixed Unstable Crystals teleporting oddly towards physical objects
+BUGFIX: Certain special ending code and progress tracking wasn't working
+BUGFIX: Fixed fish enemies having the wrong names
+BUGFIX: Old save yes/no message didn't specify the question being asked
+BUGFIX*: Fixed a silly typo in spawning code
+BUGFIX*: Vasta and Vihta sprites changed to a normal wand when loading game
+BUGFIX*: Fixed fish enemies having the wrong names
+ 
+MODDING/BUGFIX*: GuiTextInput - multibyte characters weren't erased correctly
+ 
+ 
+RELEASE NOTES NOV 16 2020
+ 
+UPDATE: Perk - re-implemented Plague rats rat friendship
+UPDATE: Perk - Removed Lukki Mutation perk (for now)
+UPDATE: Perks etc - plague rats, friendly ghost, homunculi etc don't turn berserk against player or each other on various berserk situations
+UPDATE: Tweaked a kammi feature
+ 
+BUGFIX: Crash - recent optimizations caused a crash when loading some save games
+ 
+MODDING*: Mod settings are binary serialized - faster and works better with strings inputted by user
+MODDING*: GuiTextField() takes optional allowed_characters parameter
+MODDING/BUGFIX*: GuiSlider() didn't use the same font as other widgets
+MODDING/BUGFIX*: GuiTextInput() didn't convert widget id to correct format, id conflicts could occur
+MODDING/BUGFIX*: Settings change messages didn't display in all supposed situations
+ 
+ 
+RELEASE NOTES NOV 13 2020
+ 
+FEATURE: New spell: Accelerative homing
+FEATURE: New spell: Zeta
+ 
+UPDATE: Made Sauvojen tuntija drop both of its rewards every time
+UPDATE: Rebalanced unlockable spell pools
+UPDATE: Perk - Vampirism heals more and reduces your max hp less
+UPDATE: Perk - Reduced Blood Money healing somewhat
+UPDATE*: Kuihdutusmestari's magic now temporarily disables resistance-affecting perks
+
+BUGFIX: Fixed some texturing bugs at the starting area
+BUGFIX: Game mode list banner rendering depth order issues
+BUGFIX*: The music machines should spawn more securely now
+BUGFIX*: Fixed the wither status effect increasing damage taken by 9920% instead of the intended 20%
+ 
+MODDING*: Mod settings - changed naming of MOD_SETTING_SCOPE_ constants
+MODDING/BUGFIX*: Mod settings - sliders didn't display the value of the setting if using custom formatting
+MODDING/BUGFIX*: Mod settings - weren't saved when modifying them while the game is unpaused
+MODDING/BUGFIX*: Mod settings - weren't saved when leaving the menu by other means than ESC
+ 
+ * Change relative to an earlier beta build
+ 
+ 
+RELEASE NOTES NOV 12 2020
+ 
+FEATURE: New enemy: Turvattomuusmestari
+FEATURE: New enemy: Kuihdutusmestari
+FEATURE: New enemy: Turvalennokki
+FEATURE: New perk: Pinpointer
+FEATURE: New perk: Projectile Repulsion Sector
+FEATURE: New perk: Projectile Eater
+FEATURE: New perk: Projectile Slower
+FEATURE: New perk: Low Recoil
+FEATURE: New spell: Ball Lightning
+FEATURE: New spell: Nolla
+FEATURE: New structure: Sauna
+FEATURE: New work-in-progress area, deep underground...
+ 
+UPDATE: Updated some perk names and descriptions to better reflect their functionality
+UPDATE: Perks description is displayed also before you pick them up
+UPDATE: Tower reward wands no longer disappear at wrong times
+UPDATE: Finally removed firearm imagery from certain spell icons
+UPDATE: Patsas enemies no longer need to breathe
+UPDATE: Curse of greed is a tiny tiny bit slower to advance
+UPDATE: Music machines have more health so that they're harder to accidentally detonate
+UPDATE: Added copies of the music machines in certain locations to further mitigate the chance of them being lost
+UPDATE: Sätkymestari shots cause player projectiles to be able to hurt the player
+UPDATE: Rebalanced the Tower rewards and gave them their own names
+UPDATE: Certain legendary spells are not be affected by unlimited spells
+UPDATE: Numerous thrown, kicked or falling items deal more reasonable damage, especially with low velocities
+UPDATE: Kolmisilmä's shield can convert projectile damage fields in some circumstances
+UPDATE: New background in Coal Pits
+UPDATE: Alpha spell does not automatically cast another spell
+UPDATE: Gamma spell does not automatically cast another spell
+UPDATE: Random loadouts - Slime loadout has an actually castable third wand
+UPDATE: Random loadouts - Eldritch loadout has the Projectile Repulsion Field perk as well as a way to dig
+UPDATE: Lowered the resistance bonuses from Slime blood & Oil blood slightly, changed their description to clearly state the resistance effect
+UPDATE: Perk descriptions can be seen before picking them up
+UPDATE: Perk - Certain perks that apply a one-time effect indicate this behaviour in their name & icon
+UPDATE: Perk - Always cast has a maximum of 4 Always Cast spells per wand
+UPDATE: Perk - Improved Exploding corpses and Exploding Gold explosions
+UPDATE: Perk - Attract gold has a longer range and stronger pull
+UPDATE: Perk - The Oil blood perk gives protection against fire but doesn't give resistance to damage
+UPDATE: Perk - Revenge explosion perk explodes harder and can't set the player on fire, + adds a 20% explosion resistance
+UPDATE: Perk - The Homunculus perk can spawn homunculi in a larger variety of areas
+UPDATE: Perk - The Homunculi's HP scales better towards the endgame
+UPDATE: Perk - Added a 20% projectile damage resistance to Revenge Tentacle
+UPDATE: Perk - Revenge bullets works more consistently and launches the revenge projectiles faster & with increased damage
+UPDATE: Perk - Clarified some perk descriptions so that they more clearly state e.g. added resistances and such
+UPDATE: Perk - Bounce also increases the duration of your spells
+UPDATE: Perk - Low gravity applies the gravity effect to enemies as well (experimental change)
+UPDATE: Perk - High gravity applies the gravity effect to enemies as well (experimental change)
+UPDATE: Perk - High mana, low capacity should no longer be able to remove Always Casts
+UPDATE: Perk - Exploding gold has a more accurate description and its explosions work properly
+UPDATE: Perk - Concentrated Spells increases recoil much less, to make it more useful
+UPDATE: Perk - Boomerang Spells increases the speed and damage of your spells
+UPDATE: Perk - Made the player not become a rat when picking up the Plague Rats perk for now as a temporary fix
+UPDATE: Twitch integration - Usernames are picked from messages instead of the whole viewer list
+UPDATE: Twitch integration - Votes can be cast while game is paused
+UPDATE: Twitch integration - Votes can be changed while voting is in progress
+UPDATE: Twitch integration - Enable/disable all events button in options
+UPDATE: Twitch integration - The perk-spawning stream event's description is accurate to what it *actually* does
+ 
+BUGFIX: Twitch integration - Player immortality event erroneously stated that the effect would always last 1 minute
+BUGFIX: UI Damage numbers support numbers that are over 2 billion
+BUGFIX: Telekinetic kick works with Runestones and some other objects
+BUGFIX: Ukkoshyypiö should no longer lose its aura after 2 minutes
+BUGFIX: Fixed projectile transmutation field transmuting itself
+BUGFIX: Fixed projectile thunder field transmuting itself
+BUGFIX: Fixed projectile gravity field affecting itself
+BUGFIX: Items could damage player if they changed herds
+BUGFIX: It was possible to occasionally get stuck with Teleportitis dodge
+BUGFIX: Yes/No boxes took previous ESC press for a No
+BUGFIX: Kammi could cause slowdowns if player has massive maximum hitpoints
+BUGFIX: Lower 'Cosmetic particle amount' settings affected non-cosmetic particles
+BUGFIX: Fixed a broken text entry 
+BUGFIX: Fixed the two fish creatures being mixed-up in the progress menu
+BUGFIX: Fixed Vault laser cannons shooting too far
+BUGFIX: Some biome modifiers could replace potion spawns in some cases
+BUGFIX: Fixed curse of greed ignoring certain materials
+BUGFIX: Damage field should no longer bug out when enemies die in specific ways
+BUGFIX/MODDING: Fixed a bug with find_the_wand_held( entity_id )
+ 
+MODDING: Made potion spawning use a separate spawn table, found in data/scripts/item_spawnlists.lua
+MODDING: Lua - Added support for mod settings menus and persistent settings - see mods/example/settings.lua
+MODDING: Lua - Added EntityGetWandCapacity()
+MODDING: Lua - Added StreamingGetConnectedChannelName()
+MODDING: Lua - Added StreamingSetCustomPhaseDurations()
+MODDING: Lua - Added StreamingForceNewVoting()
+MODDING: Lua - Added StreamingSetVotingEnabled()
+MODDING: Lua - Added ModSettingGet()
+MODDING: Lua - Added ModSettingSet()
+MODDING: Lua - Added ModSettingGetNextValue()
+MODDING: Lua - Added ModSettingSetNextValue()
+MODDING: Lua - Added ModSettingRemove()
+MODDING: Lua - Added ModSettingGetCount()
+MODDING: Lua - Added ModSettingGetAtIndex()
+MODDING: Lua - Added GuiSlider()
+MODDING: Lua - Added GuiTextInput()
+MODDING: Lua - Added GuiTooltip()
+MODDING: Lua - Added GameIsBetaBuild()
+MODDING: Lua - Removed StreamingGetSettingsGhostsNamedAfterViewers()
+MODDING: Lua - StatsLogPlayerKill() takes optional klled_entity parameter
+MODDING: Lua - Added OnModSettingsChanged hook (Accessible via init.lua)
+MODDING: Lua - Added OnPausePreUpdate() hook (Accessible via init.lua)
+MODDING: LuaComponent - added script_damage_about_to_be_received
+MODDING: LuaComponent - script_damage_received gives the id of possible projectile that caused the damage
+MODDING: Streaming integration - IRC commands can be handled on the lua side

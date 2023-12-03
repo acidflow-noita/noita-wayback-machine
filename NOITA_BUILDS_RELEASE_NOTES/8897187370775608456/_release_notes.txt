@@ -1,0 +1,30 @@
+ 
+RELEASE NOTES - Oct 11 2019
+ 
+FEATURE: Added new eggs! 
+FEATURE: Added three new alchemical curiosities and two new mysteries into the game world
+FEATURE: Added 11 new spells and a selection of curious rarity spells 
+FEATURE: Settings/UI - 'show hovered material/item name next to mouse' 
+FEATURE: UI - Stain status amount is displayed next to icon 
+FEATURE: UI - Fire status duration displayed in the status area 
+FEATURE: UI - Displays potion fullness next to icon 
+FEATURE: Added a new rare monster 
+FEATURE: The gods have less reasons to be angry
+ 
+UPDATE: Walking through 1-2px pools of toxic sludge should not activate the status effect if not previously stained 
+UPDATE: Player starts with a water flask 
+UPDATE: Added small safety rooms to the start of Snowy Depths, Hiisi Base and The Vault 
+UPDATE: Giga Death Cross is now properly Giga 
+UPDATE: Adjusted Snowy Depths & Hiisi Base enemy distribution slightly 
+UPDATE: Adjusted projectile knockbacks 
+UPDATE: Clarified some spell descriptions 
+UPDATE: Adjusted knockback on the 'Concentrated shot' perk 
+UPDATE: Increased egg-friend HP to make them last longer and made egg-borne Limanuljaska enemies not spill toxic sludge
+UPDATE: Full health regeneration heart in Holy Mountain now increases maximum hp by 10 
+ 
+BUGFIX: Duplicate world seed bug
+BUGFIX: Added some missing enemy progress icons
+BUGFIX: Fixed potential crashes in platform layer 
+BUGFIX: Fixed a glitchy secret interaction 
+BUGFIX: Fixed Thunder blast's explosion damaging through resistances
+BUGFIX: Fixed some enemies in the Vault missing some of their tools such as shields

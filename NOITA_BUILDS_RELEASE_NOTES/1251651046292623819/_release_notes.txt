@@ -1,0 +1,9 @@
+ 
+RELEASE NOTES - Oct 1 2019
+ 
+NOTES: "Replay recorder" can now be enabled via options menu
+ 
+UPDATE: replay edit - higher quality downsampling
+UPDATE: Gameplay - reduced default screen shake to 70% of original
+UPDATE: Several new perks for extra variety!
+BUGFIX: replay edit - gifs don't loop correctly

@@ -1,0 +1,23 @@
+﻿FEATURE: Steam Workshop support
+FEATURE: Added a Secret reward
+
+UPDATE: Overhauled The Vault layout and visuals
+UPDATE: Surface backgrounds blend better to the world
+UPDATE: Progress menu is scrollable
+
+BUGFIX: Fixed misbehaving background sprites
+BUGFIX: Enemies that hatched from eggs sometimes lost their charm
+BUGFIX: Quitting the game while being polymorphed caused an instadeath
+BUGFIX: Save game and autosave didn't work correctly in New Game+
+BUGFIX: Fixed a texture memory leak
+BUGFIX: Holy Mountain teleportation was more dangerous on slow computers
+BUGFIX: The player could be charmed forever (even if the stains were washed off)
+
+MODDING: Added support for translation mods (see mods/translation_fi/ for an example)
+MODDING: Lua - added OnPlayerDied hook (accessible via init.lua)
+MODDING: Lua - added LoadBackgroundSprite()
+MODDING: Lua - added GameDropPlayerInventoryItems()
+MODDING: Lua - added GameDestroyInventoryItems()
+MODDING: Lua - added GameTriggerGameOver()
+MODDING: Lua - added ModIsEnabled()
+MODDING: Added magic_number DEBUG_LUA_REPORT_BIOME_SPAWN_ERRORS which can be used to limit error spam

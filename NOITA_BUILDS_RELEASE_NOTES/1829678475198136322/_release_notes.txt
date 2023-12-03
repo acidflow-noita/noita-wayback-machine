@@ -1,0 +1,11 @@
+﻿HOTFIXES - Mar 3 2020
+
+BUGFIX: Big worm's health bars were ragdolled
+BUGFIX: Some main character's attributes were different between daily run and other modes
+BUGFIX: Background layer had pieces that would not load correctly
+BUGFIX: Wand Radar perk now ignores the wands that the player holds
+
+MODDING: Game warns if a workshop mod might require a never version of the game
+MODDING: Lua - added ModGetAPIVersion()
+MODDING: XML entity serialization - Base now has include_children attribute
+MODDING/BUGFIX: Custom FMOD banks didn't work when mod was used via Steam Workshop

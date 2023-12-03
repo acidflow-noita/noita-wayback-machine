@@ -1,0 +1,42 @@
+
+CHANGES FROM MASTER BUILD - Nov 1 2019 
+ 
+FEATURE: Perks can be rerolled with gold
+FEATURE: Added 4 new perks 
+FEATURE: Added 5 new spells 
+FEATURE: Added 2 new secret areas 
+FEATURE: Added 2 new enemies 
+FEATURE: Secret area is harder to get to 
+ 
+UPDATE: Repositioned a secret item into a more sensible spot 
+UPDATE: Gave a monster the lair it deserves 
+UPDATE: Buffed "Slime blood" perk - removes slime slowdown from player
+UPDATE: Wands with high reload times are now more interesting
+UPDATE: Newly-added secret area now has a less bumpy start 
+UPDATE: Another newly-added secret is now easier to activate 
+ 
+BUGFIX: Gamepad cursor sometimes focused on screen corner 
+BUGFIX: Emerald tablets did collision damage to berserked player 
+BUGFIX: Rock spell did collision damage to berserked player 
+BUGFIX: Several spells listed a wrong type 
+BUGFIX: Enemies killed with lightning dropped double gold
+BUGFIX: Enemies killed with bombs dropped double gold
+BUGFIX: Crash - rare crash in inventory logic
+BUGFIX: Performance/modding - some sprite rendering code paths were slow if any mods were enabled
+BUGFIX: Rerolled perks rolled off screen
+BUGFIX: Throw button rebinding didn't work
+BUGFIX: Crash in inventory
+BUGFIX: Personal Gravity Field crashed the game
+BUGFIX: Crashed when there were too many particles
+BUGFIX: Certain spells could deal ludicrous damage every frame 
+BUGFIX: Boomerang spells -perk could break modifiers 
+ 
+MODDING: Mod list is scrollable 
+MODDING: Lua - improved error reporting when C++ code calls lua functions
+MODDING: Lua - added ComponentGetMetaCustom( component_id, variable_name )
+MODDING: Lua - added PhysicsGetComponentVelocity( entity_id, component_id )
+MODDING: Lua - added PhysicsGetComponentAngularVelocity( entity_id, component_id )
+MODDING: Lua - added PhysicsVecToGameVec( x, y )
+MODDING: Lua - added GameVecToPhysicsVec( x, y )
+MODDING: Lua - added EntityGetInRadius( pos_x, pos_y, radius )
+MODDING: Lua - added EntityGetInRadiusWithTag( pos_x, pos_y, radius, entity_tag )

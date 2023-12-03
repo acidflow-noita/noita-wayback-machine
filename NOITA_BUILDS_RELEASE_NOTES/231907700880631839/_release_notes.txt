@@ -1,0 +1,290 @@
+﻿HOTFIXES - Oct 22 2020
+
+FEATURE: Steam Cloud on/off option
+ 
+UPDATE: More coherent plasma beam destruction
+UPDATE: Melting/vaporization reactions occur only on material surface, other tweaks - makes a secret ritual easier
+UPDATE: Small text edits
+ 
+BUGFIX: Fixed an issue causing save game bloat. Should make future steam cloud syncs faster.
+BUGFIX: Fixed minor issues in some translations
+BUGFIX: Plasma beams were blocked by fire
+BUGFIX: World seed and build are displayed always when starting a new game
+BUGFIX: A rare crash with Pixel Sprites has been fixed
+BUGFIX: World generation may have created impassable world in Mines
+BUGFIX: Displaying certain ingame text or switching to some languages caused a crash because a translation file was corrupted
+BUGFIX/MODDING: WormComponent doesn't crash anymore, if there are different number of sprites and hitboxes
+ 
+MODDING: Fixed an incorrect parameter name in documentation
+MODDING: Lua - EntityAddComponent2 supports _enabled boolean
+ 
+
+HOTFIXES - Oct 20 2020
+
+FEATURE: New biome modifier: shielded
+
+UPDATE: Removed one of Holy Mountain's statues as a homing target to make the exit feel more manageable
+
+BUGFIX: Crash - picking up an orb crashed the game, if language was set to Suomi
+BUGFIX: Slowdown - sometime save files caused the game to run extremely slow
+BUGFIX: Summon portal spell's target could be lost when game is saved
+BUGFIX: Moved the health bar of a certain miniboss, so it's not in their face
+BUGFIX: Mana usage -decreasing spells should now work as always_casts
+
+
+HOTFIXES - Oct 19 2020
+
+FEATURE: New biome modifiers: gravity fields, flooded and fungus
+﻿FEATURE: New enemy: Sätkymestari
+FEATURE: New perk: High gravity
+
+UPDATE: Updated the starting potions
+UPDATE: Miniboss music
+UPDATE: Made certain spell worthier of its name
+UPDATE: Offline Daily Run - if the online isn't working or if you wanted the old daily run back, just turn off online features
+UPDATE: Menu Yes/No boxes - hitting ESCAPE counts as No
+UPDATE: On opening Noita the mouse cursor is no longer moved inside the window at start
+UPDATE: Streaming - Removed Health Minus and Max Health Minus events
+
+BUGFIX: Parts of biome modifiers could be applied to biomes in which they were blocked
+BUGFIX: Fixed a way to farm endless extra HP
+BUGFIX: Made Trigger/Timer/Death trigger spells work with modifiers
+BUGFIX: Fixed a case where high-level spells could spawn in odd spots
+BUGFIX: Options - switching monitors should now display the resolution correctly
+BUGFIX: Made increased gravity from "Faster levitation" perk not stack to prevent unfortunate effects
+BUGFIX: Update available box sometimes appeared in the Steam build
+
+BUGFIX/MODDING: GameCreateSpriteForXFrames() - didn't create a 1-frame sprite as expected
+BUGFIX/MODDING: scatter_position.lua - error spam is reduced
+BUGFIX/MODDING: Boss arena shop didn't use TEMPLE_SHOP_ITEM_COUNT
+
+MODDING: Exposed streaming events types
+
+
+HOTFIXES - OCT 18 2020
+
+BUGFIX: Some Perk combos didn't work
+BUGFIX: Certain save games crashed the game
+
+
+HOTFIXES - Oct 16 2020
+
+UPDATE: Twitch integration - added some animations to the UI
+UPDATE: Added a few missing localizations
+UPDATE: Improved Emerald Tablet fade animation
+
+BUGFIX: Daily run game mode description didn't have correct text
+BUGFIX: Game over menu said "Completed the game" twice
+
+MODDING: Restored common.csv and common_dev.csv stuff
+MODDING: Lua - added OnPausedChanged( is_paused, is_inventory_pause ) hook (Accessible via init.lua)
+
+
+
+
+##HIGHLIGHTS##
+
+﻿
+##RELEASE_NOTES##
+FEATURE: Twitch integration - let stream viewers make your game more chaotic
+FEATURE: New progress is displayed at the end of a run
+FEATURE: Sim - liquids freeze in cold biomes
+FEATURE: Sim - ice and snow melt in hot biomes
+FEATURE: Biome modifiers: moist, dark, freezing, hot, conductive, mineable and more..
+FEATURE: New contraption in holy mountain
+FEATURE: More new stuff in holy mountain
+FEATURE: New elements in Nightmare mode
+FEATURE: Menus support keyboard input
+FEATURE: Rendering - some environments have custom color grading
+FEATURE: Rendering - some environments have underground fog/mist
+FEATURE: New perk: Revenge bullets
+FEATURE: New perk - Gas fire
+FEATURE: New perk - Phasing
+FEATURE: New perk: No More Knockback
+FEATURE: New perk: Faster levitation
+FEATURE: New perk: Peace with Gods
+FEATURE: New perk: Kills To Mana
+FEATURE: New spell: Cursed Sphere
+FEATURE: New spell: Freezing gaze
+FEATURE: New spell: Pinpoint of light
+FEATURE: New spell: Blood magic
+FEATURE: New spell: Octagonal bolt bundle
+FEATURE: New spell: Fizzle
+FEATURE: New spell: Decelerating shot
+FEATURE: New spell: Warp cast
+FEATURE: New spell: Laser bounce
+FEATURE: New spell: Magic guard
+FEATURE: New spell: Big magic guard
+FEATURE: New spell: Infestation
+FEATURE: New spell: Earthquake shot
+FEATURE: New spell: Duplicate
+FEATURE: New spell: Linear arc
+FEATURE: New spell: Oil rain
+FEATURE: New spell: Bubbly Bounce
+FEATURE: More than 30 new secret spells
+FEATURE: 4 new enemies added
+FEATURE: New enemy: ???
+FEATURE: New enemy: Munkki
+FEATURE: New enemy: Maadoittajamestari
+FEATURE: New enemy: Palauttajamestari
+FEATURE: New item: Vuoksikivi
+FEATURE: A variety of new items to find in the game world
+FEATURE: New prop: Water barrel
+FEATURE: New prop: Plasma beam box
+FEATURE: New music: Underground Jungle
+FEATURE: New music: Vault
+FEATURE: New music: Temple of Art
+FEATURE: New music: Kolmisilmä
+FEATURE: New music: Credits
+FEATURE: New music: Stevari
+FEATURE: New music: Various side biomes
+FEATURE: New music: The Work
+FEATURE: New music: Snowy Wasteland
+FEATURE: New music: The tower
+FEATURE: Audio: new material sounds for chains
+FEATURE: Audio: new material sounds for wires
+FEATURE: Audio: new material sounds for magical materials
+FEATURE: Audio: new projectile sounds
+FEATURE: Audio: new creature sounds
+FEATURE: Audio: new boss sounds
+FEATURE: Audio: new explosion sounds
+FEATURE: Audio: new ambiences for Underground Jungle, Vault and Temple of Art
+FEATURE: Audio: various new sounds
+FEATURE: New traps in crypt
+FEATURE: New material: Levitation
+FEATURE: New material: Hastium
+FEATURE: New secret materials and material interactions
+FEATURE: Option for reducing cosmetic particle amount, other new options
+FEATURE: New achievements
+FEATURE: New secrets..
+
+UPDATE: New background in Temple of the Art, Pyramid and Mines
+UPDATE: Telekinetic kick animations
+UPDATE: Levitation Trail sparks have increased velocity but slow down when penetrating materials
+UPDATE: Added variety to projectile explosion VFX
+UPDATE: Increased the strength of physical impulses of many projectiles
+UPDATE: Mines has new wands, spells and tiles
+UPDATE: Starting equipment is randomized
+UPDATE: Enhanced Holy Mountain visuals
+UPDATE: Adjusted spawn probabilities of several spells
+UPDATE: Pentagram / Hexagram mana tweaked
+UPDATE: Light modifier's radius increased
+UPDATE: New attack for Plasmakukka
+UPDATE: Improved UI graphics filtering (pixel-perfect UI rendering)
+UPDATE: Health bar displays damage amount
+UPDATE: Spell icons are colored according to spell type
+UPDATE: Tweaked selected item look in inventory
+UPDATE: Wand info boxes display all slots
+UPDATE: Mana bar is displayed only if a wand is selected
+UPDATE: Overhauled and extended a side biome
+UPDATE: Overhauled options menu
+UPDATE: Improved adaptive vsync logic
+UPDATE: Gamma setting can no longer be used to see in the dark
+UPDATE: Overhauled knockback effects
+UPDATE: Picking up the nearest item is now prefered
+UPDATE: Polished teleport fx
+UPDATE: Mountain background fixes
+UPDATE: Never Skip Leg Day perk is buffed
+UPDATE: Never Skip Leg Day perk affects Telekinetic Kick
+UPDATE: Living On The Edge perk effects start when hp is under 25%
+UPDATE: Toxic sludge immunity perk now protects you from frozen toxic sludge
+UPDATE: Some ragdolls fall down more easily
+UPDATE: Jetpack particles indicate remaining jetpack energy
+UPDATE: Melee on frozen player doesn't lead to instakill
+UPDATE: Glass Cannon is shinier
+UPDATE: Liquids can now push characters
+UPDATE: UI - bars now shake to indicate when you're out of them
+UPDATE: UI - mana drain now has its own icon
+UPDATE: UI - displays cast delay as a bar if trying to use wand and there's an ongoing delay
+UPDATE: Buffed a secret spell to be worth its salt
+UPDATE: AI doesn't attempt to use wands with certain spells
+UPDATE: AI throws away wands that have no usable spells
+UPDATE: Polished AI wand carrying animations
+UPDATE: Various text changes
+UPDATE: Spells in the progress menu have a background indicating the spell type
+UPDATE: Torch will melt frozen materials around it
+UPDATE: Made some wall materials harder
+UPDATE: UI - New rising damage numbers
+UPDATE: Emerald tablet text appears in a more mysterious way
+UPDATE: Optimization - optimized various systems
+UPDATE: Optimization - optimized rainforest performance
+UPDATE: Optimization - optimized area saving and loading
+UPDATE: An arcane action is acknowledged
+UPDATE: Game over UI tweaks
+UPDATE: Updated some spell icons
+UPDATE: Audio - mix tweaks
+UPDATE: Audio - rain ambience stereo panning
+UPDATE: Audio - added flying sound to Stevari's projectiles
+UPDATE: Polished the visuals of various props and background sprites
+UPDATE: Enemies have new particle-based laser sights
+UPDATE: Menus - scrolling boxes are smoother
+UPDATE: Menus - locked game mode description text is washed out
+UPDATE: Menus - menu UI animations
+UPDATE: Menus - main menu polish
+UPDATE: Tweaked emerald tablet text animations
+UPDATE: Tweaked some teleport particle effects
+UPDATE: Temple and boss music reacts better to various situations
+ 
+BUGFIX: Revenge Tentacle and Revenge Explosion used to trigger on heal
+BUGFIX: Some rainforest enemies didn't drop gold on death
+BUGFIX: UI wasn't scaled correctly on some resolutions
+BUGFIX: UI bars could sometimes go negative
+BUGFIX: The game allowed selecting resolutions where the UI became so small it was illegible
+BUGFIX: Display resolution change restore counter went below zero
+BUGFIX: Perk list went offscreen when lots of perks had been picked
+BUGFIX: Health bar went partially over other UI elements when max hp was high
+BUGFIX: When hovering "Mods" in main menu a tooltip about mod incompatibilities was always displayed
+BUGFIX: Changes to "Low resolution rendering" option weren't applied correctly until other options were changed
+BUGFIX: Dragged spells weren't always rendered at correct depth
+BUGFIX: Spell Refresh effects on wand weren't applied until inventory was interacted with
+BUGFIX: Character kept momentum after entering a portal, while the target area was loading
+BUGFIX: Quiet liquid flow sound could be heard throughout the intro
+BUGFIX: Gamepad always overrode mouse input focus when it was enabled
+BUGFIX: Crash - shooting wand with fireworks and downwards bolt bundle
+BUGFIX: Game should be hitting 60 fps more consistently now
+BUGFIX: Hitting Escape at the start made things bug out
+BUGFIX: Gold couldn't be picked up near enemies that were alive
+BUGFIX: Boss arena bridge didn't always collapse
+BUGFIX: Cloud spell spawn positions ignored obstacles
+BUGFIX: Teleportitis triggered even though damage was blocked
+BUGFIX: HP overflow is handled better
+BUGFIX: Money overflow is handled better
+BUGFIX: Setting enemies or yourself on fire multiple times didn't work correctly
+BUGFIX: Inanimate objects displayed damage numbers
+BUGFIX: Fixed some issues in scripts
+BUGFIX: Inventory gamepad controls didn't work with some item configurations
+BUGFIX: Fixed a crash when loading very old save game
+BUGFIX: Homing on Eel didn't work
+BUGFIX: Splash sound could be heard when approaching [REDACTED]
+BUGFIX: Throwable items had a lifetime of 28 minutes
+BUGFIX: Clouds had ridiculous maximum speed
+BUGFIX: Progress menu item info boxes weren't sometimes fully visible
+BUGFIX: "Press E to pick treasure chest" -> "Press E to open treasure chest"
+BUGFIX: Audio - a fungal enemy didn't play sound on all deaths
+BUGFIX: Scroll container left side worked as a snap target
+BUGFIX: Mouse cursor flickered when starting the game
+BUGFIX: Hopefully fixed Hiisi Base turrets being able to shoot backwards
+BUGFIX: It was not possible to anger the gods in the holy mountain area of The Laboratory
+BUGFIX: Improved note spell code
+
+MODDING: EntityAddComponent2() supports tags via _tags="tag1,tag2"
+MODDING: Lua - added StatsGlobalGetValue()
+MODDING: Lua - added BiomeMapConvertPixelFromUintToInt()
+MODDING: Lua - added BiomeObjectSetValue()
+MODDING: Lua - added BiomeVegetationSetValue()
+MODDING: Lua - added BiomeMaterialSetValue()
+MODDING: Lua - added BiomeMaterialGetValue()
+MODDING: Lua - added EntitySetDamageFromMaterial()
+MODDING: Lua - added EntityAddRandomStains()
+MODDING: Lua - added OnBiomeConfigLoaded hook (Accessible via init.lua. Gives access to biome configs pre world gen.)
+MODDING: Lua - added StreamingGetVotingCycleDurationFrames()
+MODDING: Lua - added a new Shift+F5 debug menu that can be configured via lua (available in noita_dev.exe)
+MODDING: Lua - added GameIsModeFullyDeterministic()
+MODDING: Lua - added GameIsInventoryOpen()
+MODDING: Lua - added StreamingGetIsConnected()
+MODDING: Lua - StreamingGetSettingsGhostsNamedAfterViewers()
+MODDING: Lua - added ComponentAddTag()
+MODDING: Lua - added ComponentRemoveTag()
+MODDING: Lua - added ComponentHasTag()
+MODDING: Lua - added StreamingGetRandomViewerName()
+MODDING: Lua - added SetWorldSeed()

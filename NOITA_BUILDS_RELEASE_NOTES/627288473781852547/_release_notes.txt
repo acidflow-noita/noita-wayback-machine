@@ -1,0 +1,64 @@
+﻿FEATURE: Reset. We're pioneering a new frontier in the art of computing. New game works without having to restart the whole program. 
+FEATURE: New perk: Levitation Trail
+FEATURE: New perk: No Wand Editing
+FEATURE: New perk: Trick Blood Money
+FEATURE: New perk: Wand Experimenter
+FEATURE: New perk: Gold is Forever
+FEATURE: New perk: Living on the Edge
+FEATURE: New perk: Telekinetic kick
+FEATURE: New physical wires and hazardous objects
+FEATURE: New rope bridges
+FEATURE: New enemy: Jättilaser-lennokki
+FEATURE: New enemy: Märkiäinen
+FEATURE: New spell: Bomb Cart
+FEATURE: Proper worm ragdolls
+FEATURE: Proper lukki ragdolls
+FEATURE: New secrets..
+ 
+UPDATE: Backgrounds blend together in a less edgy way
+UPDATE: Kolmisilmä has a custom shield. Increased base HP. Ceiling collapse works more reliably.
+UPDATE: Improved some common wood textures
+UPDATE: New Orbroom graphics
+UPDATE: Tubelights hang on wires and they can give electric shocks when broken
+UPDATE: New background structures in Coal Pits
+UPDATE: New background in Fungal Caverns
+UPDATE: New background in Underground Jungle
+UPDATE: Improved lukki leg animation
+UPDATE: Improved audio reverbs
+UPDATE: Improved liquid audio
+UPDATE: Improved audio mixing
+UPDATE: Kuu's gravity now attracts all physics bodies
+UPDATE: Black holes have gravity
+UPDATE: Improved physics and destruction of Hiisi Base furniture
+UPDATE: New materials with ingestion effects
+UPDATE: New rare material: Healium
+UPDATE: Memory use optimization - reduced baseline memory use by 10-15%
+UPDATE: File access optimization - less redundant copies
+UPDATE: Particle system optimization - parallel update and rendering
+
+BUGFIX: Ragdoll joints weren't retained over a save-load cycle
+BUGFIX: Lanterns and other props drifted spatially over a save-load cycle (fixed in some biomes)
+BUGFIX: Mine cart sometimes had invisible forces holding it together when split in multiple parts
+BUGFIX: Fixed some physical props losing their transform, destruction and other properties on a save-load cycle
+BUGFIX: Intense Concentrated Light caused some spell combinations to stay perpetually alive
+BUGFIX: Autoaim targeted the shooter if stained with Berserkium
+BUGFIX: Fixed gamepad drinking and item drop binding conflict (now for reals)
+BUGFIX: No More Shuffle perk should work a bit better
+BUGFIX: Necromanced enemies drop wands when dying
+BUGFIX: Chest drops are now deterministic
+ 
+MODDING: Lua - added ModTextFileGetContent(), ModTextFileSetContent() and ModTextFileWhoSetContent() - for modfying text-based assets in memory
+MODDING: Lua - added ModGetActiveModIDs()
+MODDING: Lua - added GameSetPostFxParameter(), GameUnsetPostFxParameter()
+MODDING: Lua - added EntityAddComponent2()
+MODDING: Lua - added PhysicsBody2InitFromComponents()
+MODDING: Lua - added PhysicsApplyForceOnArea()
+MODDING: Lua - added DoesWorldExistAt()
+MODDING: Lua - added ProceduralRandomi()
+MODDING: Lua - added BiomeSetValue(), BiomeGetValue()
+MODDING: Lua - added EntityApplyTransform()
+MODDING: Lua - ComponentGet/SetValue2 API supports access to some internals of VerletPhysicsComponent. (For example masses, positions)
+MODDING: Lua - utilities.lua - added component_read/write() helpers
+MODDING: Lua - right click state can be read via ControlsComponent
+MODDING: Added PhysicsBody2Component, PhysicsJoint2Component and Physics2JointMutatorComponent, an improved API for creating physics-based objects
+MODDING: Added OnMagicNumbersAndWorldSeedInitialized hook (Accessible via init.lua. Use this when init needs world seed!)

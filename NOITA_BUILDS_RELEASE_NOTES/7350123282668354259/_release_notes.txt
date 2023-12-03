@@ -1,0 +1,25 @@
+﻿FEATURE: 11 new spells!
+FEATURE: New, very elusive creature roams a certain area...
+FEATURE: Weather phenomena
+FEATURE: 4 new magical materials
+
+UPDATE: No restart when entering nightmare game via main menu
+UPDATE: Downwards bolt bundle has unlimited uses
+UPDATE: Various gameplay tweaks
+UPDATE: Weather phenomena
+UPDATE: Item attraction perk changed to just gold attraction to make it more useful
+
+BUGFIX: Nightmare mode - some of the entrances were blocked
+BUGFIX: Nightmare mode - empty chunks were appearing in places
+BUGFIX: Thunderstone could be placed into spell inventory
+BUGFIX: Fungal caverns had no potion spawns
+BUGFIX: Healers etc were friendly with player
+BUGFIX: Revenge explosion and -tentacle did nothing
+
+MODDING: Mods can define new game modes (see mods/nightmare for an example)
+MODDING: Lua/BUGFIX - dofile handling when file doesn't exist was a bit broken and didn't log errors
+MODDING: Lua/BUGFIX - fixed a lua sandbox escape exploit
+MODDING: Lua - added GameGetDateAndTimeLocal()
+MODDING: Lua - added GameGetDateAndTimeUTC()
+MODDING: Lua - added GameEmitRainParticles()
+MODDING: Lua - added GetRandomAction()

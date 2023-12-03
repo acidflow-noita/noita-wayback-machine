@@ -1,0 +1,62 @@
+FEATURE: A new (WIP) challenge awaits you
+FEATURE: New perk: Exploding gold
+FEATURE: New perk: Faster projectiles
+FEATURE: New perk: Remove worm and lukki digging
+FEATURE: New perk: Extra wand slots
+FEATURE: New perk: Teleportitis Dodge
+FEATURE: New perk: High mana, low capacity
+FEATURE: New perk: Homunculus
+FEATURE: New spell: Quantum Split
+FEATURE: New spell: Chain spell
+FEATURE: New spell: Wand refresh
+FEATURE: New spell: Mu
+FEATURE: New spell: Larpa explosion
+FEATURE: New spell: Larpa bounce
+FEATURE: New enemy: Haavoittajamestari
+FEATURE: New enemy: Sätkymestari
+FEATURE: New item: Kammi
+FEATURE: New stream event: Summon Random Homunculus
+FEATURE: New stream event: Spawn perk
+FEATURE: New stream event: Give Perks To Enemies
+FEATURE: New stream event: Extreme Spread
+FEATURE: New stream event: Matter Eater
+FEATURE: New stream event: Excess Gas
+FEATURE: New stream event: Summon Shielding Ghost
+FEATURE: New stream event: Personal Invisibility
+FEATURE: New stream event: Invisible Enemies
+FEATURE: New stream event: Neutralized Spells
+ 
+UPDATE: Updated to FMOD 2.0 audio engine
+UPDATE: Added more variation to some spells sounds
+UPDATE: Improved audio mix when using loud or high cast rate wands
+UPDATE: Made unstable crystal destroy ground better
+UPDATE: Made some end-level spells more expensive
+UPDATE: Familiars spawned from eggs area bit more useful (maybe)
+UPDATE: Certain rare wands hold more spells
+UPDATE: The Hiisi have a new weakness
+UPDATE: New Game+ boss is bit more difficult
+UPDATE: "Install streaming integration mods" links to the category page on Steam Workshop
+UPDATE: Remove Worm Digging also affects lukki digging
+UPDATE: Ancient Laboratory has a new danger for you
+UPDATE: Removed raincloud from the starting wand pool, added unstable crystal to replace it
+UPDATE: Made several previously non-stackable perks stackable
+UPDATE: Made spells that deal with recursion be able to stack up to a point
+UPDATE: Changed "Extra wand slots" to "Extra wand capacity"
+UPDATE: Made Destruction's downside a bit less severe
+ 
+BUGFIX: Fixed certain spells not seemingly duplicating properly
+BUGFIX: Hopefully fixed issues with certain new spells and their interactions with infite-cast spells
+BUGFIX: Friendsip is now friendship, as it should be
+BUGFIX: Made certain overworld areas not overly dark during daytime
+BUGFIX: Fixed an item not updating its description
+BUGFIX: Desert water evaporated too fast
+BUGFIX: Lava appeared out of nowhere in some places
+BUGFIX: Several spells ignored limited uses of other spells
+BUGFIX: Certain sprites had the wrong info on them
+BUGFIX: Destroying lanterns and some other objects counted towards 'Enemies slain'
+BUGFIX: A tank enemy had wrong laser sight color
+BUGFIX: Fixed a cause of audio stuttering when using high cast rate wands
+BUGFIX: Summon portal spell worked anywhere
+BUGFIX: Fixed typo in Chain spell spawn level
+BUGFIX: Fixed certain spells not seemingly duplicating properly
+BUGFIX/Modding: Fixed very large biome areas not working

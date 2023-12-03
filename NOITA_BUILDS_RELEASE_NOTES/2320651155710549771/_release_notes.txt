@@ -1,0 +1,13 @@
+ 
+--- RELEASE NOTES - update 20190925 ---
+ 
+UPDATE: Credits
+UPDATE: Pressing ESCAPE, SPACE or RETURN in release notes, closes the menu
+UPDATE: Two surprises to find in far corners of the world
+UPDATE: A secret use for emerald tablets...
+ 
+BUGFIX: Loading being stuck, there is a workaround now if you wait 30 seconds on the loading screen
+BUGFIX: Pressing ESC while in the release notes, causes the game to lock into a black screen
+BUGFIX: Stats not saving
+BUGFIX: Mouse cursor is not visible when starting the game
+BUGFIX: Item slot key rebinding doesn't work

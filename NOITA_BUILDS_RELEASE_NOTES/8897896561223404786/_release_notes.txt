@@ -1,0 +1,47 @@
+ 
+RELEASE NOTES - Nov 29 2019 
+ 
+FEATURE: Nightmare game mode
+FEATURE: Main menu
+FEATURE: New game menu 
+FEATURE: Added 6 new spells
+FEATURE: Added 5 new enemies
+ 
+UPDATE: Large aesthetical updates to a secret area
+UPDATE: Summon Deer Decoy is now properly named as Summon Deercoy
+UPDATE: Nerfed Sokaisunmestari's blinding spell
+UPDATE: Polymorph flying has been updated 
+UPDATE: Optimization - replay recorder - up to 6x faster gif saving
+UPDATE: Optimization - got rid of some script performance bottlenecks
+UPDATE: Added a new starting loadout
+UPDATE: Autosave is now on - it's a bit buggy, but it should be better than losing your progress
+UPDATE: Lukki mutation perk now has a different control scheme
+UPDATE: Scrollable GUI elements can be scrolled using mouse wheel
+ 
+BUGFIX: Crash - sometimes when enemies shot eggs
+BUGFIX: Crash - kicking crashed the game when playing old savegame (or old mods)
+BUGFIX: Crash - fixed memory leak with material trails
+BUGFIX: Crash - replay editor crashed if used at the very first frame of the game
+BUGFIX: Crash - game crashed at start on some older CPUs
+BUGFIX: Certain enemies could be damaged via unintended means
+BUGFIX: There were duplicate items in progress menu
+BUGFIX: Glitch wand has been fixed
+BUGFIX: Perks - if you had both Extra Life and Saving Grace neither of them respawned you
+BUGFIX: [redacted] affects vision like it used to do
+BUGFIX: Sokaisunmestari's blinding spell had ridiculous knockback
+BUGFIX: Final boss' health was reset to 100% if game was restarted during the battle
+BUGFIX: Final boss stopped working if player polymorphed
+BUGFIX: Final boss could take damage when inactive
+BUGFIX: Infinite rats when combining Plaque rats and polymorph
+BUGFIX: Aiming was wrong while polymoprhed
+BUGFIX: Rock spell's damage wasn't based on the rock's velocity
+BUGFIX: Physics damage was sometimes dealt multiple frames after it seemed to occur
+BUGFIX: Melee immunity didn't protect from tentacle attacks
+BUGFIX: Player's horizontal flight speed was randomized
+BUGFIX: Jäähdytyslaite should no longer self-destruct in certain circumstances
+BUGFIX: Healers etc didn't behave exactly as intended
+ 
+MODDING: Added a new tag 'projectile_player' for all default player projectiles
+MODDING: Lua - added dofile_once(filename). Use this if possible. Like dofile(), but runs the script only once per lua context.
+MODDING: Lua - dofile() and loadfile() return values follow lua conventions (breaking change)
+MODDING: Lua - dofile() caches the compiled code, so successive calls using the same file are (a lot) faster
