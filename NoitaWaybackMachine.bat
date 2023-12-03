@@ -6,8 +6,8 @@ SETLOCAL EnableDelayedExpansion
 pushd %~dp0
 echo %~dp0
 popd
-set downloaderHead=%~dp0DepotDownloader\DepotDownloader\bin\Release\net6.0\DepotDownloader.exe -app 881100 -depot 881101 -manifest 
-
+set downloaderHead=%~dp0Downloader\Release\net6.0\DepotDownloader.exe -app 881100 -depot 881101 -manifest 
+Downloader\Release\net6.0\DepotDownloader.exe
 @REM Set manifest id to download
 set /p manifest=Which build you want to download? Copy it and right click here then press Enter: 
 set downloaderMiddle1= -username 
