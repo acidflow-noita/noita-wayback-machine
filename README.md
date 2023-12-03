@@ -4,16 +4,22 @@
 
 **Time machine for Noita. Play any public build of the game.**
 
-This is an archive with a `.bat` script, which allows you downloading and playing every publically available Noita build (any of 280, see table below, you have to have Noita in your Steam Library).
+This repo contains info about every publically available release of the game, including `beta` branch.
+`NoitaWaybackMachine.bat` script which allows you downloading and playing every publically available Noita build (any of 280, see table below, you have to have Noita in your Steam Library).  
 
-<!-- How to use: download [`NoitaWaybackMachine.zip`](https://github.com/WUOTE/noita-wayback-machine/releases/download/V0.69-FULL-RELEASE/NoitaWaybackMachine.zip) from the latest release and unpack it. -->
+Release notes file that came with each specific build is linked in the table below.  
+If you are looking for some change that occured in one of the builds, just open the latest release [notes file](https://github.com/WUOTE/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/3073354513970942281/_release_notes.txt), it contains complete log for all of them (Nolla's release notes are not just diff-logs, each file contains previous history).  
 
-### **_Important step_**
 
-**Right click `NoitaWaybackMachine.bat` and choose "Run as Administrator".**
-If you just double click the file, Steam Depot downloader will tell you "No username given" and fail to download the build.
-Copy and paste a build number by right clicking inside the window and pressing Enter (e.g. `226707737181927261`).
-Login with steam. After that the build will download and launch.
+
+You can either use my [release with DepotDownloader (DD) built on my machine](https://github.com/WUOTE/noita-wayback-machine/releases/download/v1.0.0/1.0.0.zip), or just get [the batch file](https://raw.githubusercontent.com/WUOTE/noita-wayback-machine/main/NoitaWaybackMachine.bat) and download DD from [their official release](https://github.com/SteamRE/DepotDownloader/releases/latest), you will have to change the `downloaderHead` path on line 9 of the `.bat` file in order to run it.
+
+## Using Noita Wayback Machine
+1. Double click `NoitaWaybackMachine.bat` or right click it and run as Administrator.
+2. Copy a build number you want to play and right click the terminal window to paste it (e.g. `226707737181927261`).
+3. Press Enter.
+4. Login with Steam. After that the build will download and automatically launch `Noita.exe` from that build.
+5. Enjoy playing the game.
 
 Note: SteamRE's Depot downloader (DD) comes as part of the archive, this is what is used to download builds. DD has been repacked as self-contained in order to save you several clicks requiring .Net 6.0 download and installation.
 
