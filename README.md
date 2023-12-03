@@ -1,8 +1,8 @@
 # Noita Wayback Machine
 
-<!-- ![Noita Wayback Machine Logo](.png?raw=true) -->
+![Noita Wayback Machine Logo](https://github.com/WUOTE/noita-wayback-machine/blob/main/NoitaWaybackMachineLogo.png?raw=true)
 
-## TLDR: **Time machine for Noita. Play any public build of the game.**
+**Time machine for Noita. Play any public build of the game.**
 
 This is an archive with a `.bat` script, which allows you downloading and playing every publically available Noita build (any of 280, see table below, you have to have Noita in your Steam Library).
 
