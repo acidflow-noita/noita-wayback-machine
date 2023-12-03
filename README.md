@@ -1,6 +1,6 @@
 # Noita Wayback Machine
 
-<!-- ![Noita Wayback Machine Logo](.png?raw=true) -->
+![Noita Wayback Machine Logo](https://github.com/WUOTE/noita-wayback-machine/blob/main/NoitaWaybackMachineLogo.png?raw=true)
 
 ## TLDR: **Time machine for Noita. Play any public build of the game.**
 
