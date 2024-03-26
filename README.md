@@ -27,24 +27,24 @@ Reference (I use [Steam DB to get manifests](https://steamdb.info/depot/881101/m
 
 |    # | Release Date                     | Build (ManifestID)    | Release notes                                                                                                                               |     Branch/Tag |
 | ---: | :------------------------------- | :-------------------- | :------------------------------------------------------------------------------------------------------------------------------------------ | -------------: |
-| 1. | 25 March 2024 – 16:01:47 UTC | `4967408118408941625`| Release notes not uploaded yet | noitabeta |
-| 2. | 14 February 2024 – 06:20:34 UTC | `4378454801227783404`| Release notes not uploaded yet | |
-| 3. | 12 February 2024 – 17:18:31 UTC | `3305119480764475641`| Release notes not uploaded yet | noitabeta |
-| 4. | 9 February 2024 – 14:06:45 UTC | `2779954274973834511`| Release notes not uploaded yet | noitabeta |
-| 5. | 9 February 2024 – 12:30:04 UTC | `5873299393509607130`| Release notes not uploaded yet | noitabeta |
-| 6. | 6 February 2024 – 14:08:18 UTC | `2709639805047712618`| Release notes not uploaded yet | noitabeta |
-| 7. | 2 February 2024 – 12:49:37 UTC | `4933574789807611774`| Release notes not uploaded yet | noitabeta |
-| 8. | 22 January 2024 – 16:46:20 UTC | `3229681366971155603`| Release notes not uploaded yet | noitabeta |
-| 9. | 18 January 2024 – 15:28:20 UTC | `8983853881681790615`| Release notes not uploaded yet | noitabeta |
-| 10. | 18 January 2024 – 11:32:54 UTC | `8775101215578289476`| Release notes not uploaded yet | |
-| 11. | 18 January 2024 – 11:16:37 UTC | `1860081566651030832`| Release notes not uploaded yet | noitabeta |
-| 12. | 17 January 2024 – 19:07:50 UTC | `2789563820820988423`| Release notes not uploaded yet | noitabeta |
-| 13. | 16 January 2024 – 13:45:48 UTC | `4193550553534686520`| Release notes not uploaded yet | noitabeta |
-| 14. | 15 January 2024 – 18:36:32 UTC | `6838103992363156591`| Release notes not uploaded yet | noitabeta |
-| 15. | 14 January 2024 – 23:29:35 UTC | `6706445122650503626`| Release notes not uploaded yet | noitabeta |
-| 16. | 14 January 2024 – 23:07:44 UTC | `1414487254417309088`| Release notes not uploaded yet | noitabeta |
-| 17. | 14 January 2024 – 17:42:39 UTC | `4259480850468932187`| Release notes not uploaded yet | noitabeta |
-| 18. | 31 December 2023 – 14:06:51 UTC | `5504435442341993980`| Release notes not uploaded yet | noitabeta |
+| 1. | 25 March 2024 – 16:01:47 UTC | `4967408118408941625`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/4967408118408941625/_release_notes.txt | noitabeta |
+| 2. | 14 February 2024 – 06:20:34 UTC | `4378454801227783404`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/4378454801227783404/_release_notes.txt | |
+| 3. | 12 February 2024 – 17:18:31 UTC | `3305119480764475641`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/3305119480764475641/_release_notes.txt | noitabeta |
+| 4. | 9 February 2024 – 14:06:45 UTC | `2779954274973834511`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/2779954274973834511/_release_notes.txt | noitabeta |
+| 5. | 9 February 2024 – 12:30:04 UTC | `5873299393509607130`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/5873299393509607130/_release_notes.txt | noitabeta |
+| 6. | 6 February 2024 – 14:08:18 UTC | `2709639805047712618`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/2709639805047712618/_release_notes.txt | noitabeta |
+| 7. | 2 February 2024 – 12:49:37 UTC | `4933574789807611774`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/4933574789807611774/_release_notes.txt | noitabeta |
+| 8. | 22 January 2024 – 16:46:20 UTC | `3229681366971155603`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/3229681366971155603/_release_notes.txt | noitabeta |
+| 9. | 18 January 2024 – 15:28:20 UTC | `8983853881681790615`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/8983853881681790615/_release_notes.txt | noitabeta |
+| 10. | 18 January 2024 – 11:32:54 UTC | `8775101215578289476`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/8775101215578289476/_release_notes.txt | |
+| 11. | 18 January 2024 – 11:16:37 UTC | `1860081566651030832`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/1860081566651030832/_release_notes.txt | noitabeta |
+| 12. | 17 January 2024 – 19:07:50 UTC | `2789563820820988423`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/2789563820820988423/_release_notes.txt | noitabeta |
+| 13. | 16 January 2024 – 13:45:48 UTC | `4193550553534686520`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/4193550553534686520/_release_notes.txt | noitabeta |
+| 14. | 15 January 2024 – 18:36:32 UTC | `6838103992363156591`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/6838103992363156591/_release_notes.txt | noitabeta |
+| 15. | 14 January 2024 – 23:29:35 UTC | `6706445122650503626`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/6706445122650503626/_release_notes.txt | noitabeta |
+| 16. | 14 January 2024 – 23:07:44 UTC | `1414487254417309088`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/1414487254417309088/_release_notes.txt | noitabeta |
+| 17. | 14 January 2024 – 17:42:39 UTC | `4259480850468932187`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/4259480850468932187/_release_notes.txt | noitabeta |
+| 18. | 31 December 2023 – 14:06:51 UTC | `5504435442341993980`| [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/5504435442341993980/_release_notes.txt | noitabeta |
 | 19. | 31 December 2023 – 14:06:51 UTC  | `5504435442341993980` | [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/5504435442341993980/_release_notes.txt) |      noitabeta |
 | 20. | 30 December 2023 – 17:57:52 UTC  | `8461216122383059306` | [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/8461216122383059306/_release_notes.txt) |      noitabeta |
 | 21. | 30 December 2023 – 12:48:15 UTC  | `3843511053515765173` | [Release notes](https://github.com/acidflow-noita/noita-wayback-machine/blob/main/NOITA_BUILDS_RELEASE_NOTES/3843511053515765173/_release_notes.txt) |      noitabeta |
